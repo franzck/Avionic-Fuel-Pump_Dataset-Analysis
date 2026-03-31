@@ -1,0 +1,27 @@
+fault,time_window,sensor,pattern,severity,band,detail,mean_pct,std_pct,slope_pct_s,min_pct,max_pct,start_pct,end_pct,zero_crossings
+fault06_PRVLeakage,00-05s_idle,Flow_PRV,saturation,100.0,critical,signal saturated: +1102.6% above healthy,1102.63,0.0,-0.0,1102.63,1102.63,1102.63,1102.63,0
+fault06_PRVLeakage,05-07s_rpm_ramp,Flow_Bypass,noisy_offset,18.4,minor,"3.4% lower, std=9.9%",-3.38,9.86,-5.16,-14.95,6.69,-0.0,-6.89,1
+fault06_PRVLeakage,05-07s_rpm_ramp,Flow_Bypass,drift,26.2,minor,decreasing at -5.16%/s (-0.0%→-6.9%),-3.38,9.86,-5.16,-14.95,6.69,-0.0,-6.89,1
+fault06_PRVLeakage,05-07s_rpm_ramp,Flow_PRV,saturation,100.0,critical,signal saturated: +8854.6% above healthy,8854.65,3277.14,4934.44,1102.63,11244.88,1102.63,11244.24,0
+fault06_PRVLeakage,05-07s_rpm_ramp,Flow_Pump,noise,21.2,minor,std=4.5% around healthy mean,0.66,4.51,-0.6,-5.53,5.74,0.35,0.02,0
+fault06_PRVLeakage,05-07s_rpm_ramp,Flow_Pump,transient,24.0,minor,peak 5.7% but mean≈0.7%,0.66,4.51,-0.6,-5.53,5.74,0.35,0.02,0
+fault06_PRVLeakage,05-07s_rpm_ramp,RPM_Motor,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,-0.0,5
+fault06_PRVLeakage,05-07s_rpm_ramp,p_Pump,noise,16.3,minor,std=2.7% around healthy mean,-0.79,2.67,0.57,-5.3,2.9,0.48,-0.03,1
+fault06_PRVLeakage,05-07s_rpm_ramp,p_Pump,transient,23.0,minor,peak 5.3% but mean≈-0.8%,-0.79,2.67,0.57,-5.3,2.9,0.48,-0.03,1
+fault06_PRVLeakage,07-10s_rpm_stable,Flow_Bypass,offset,26.2,minor,6.9% lower than healthy,-6.89,0.0,0.0,-6.9,-6.89,-6.89,-6.89,0
+fault06_PRVLeakage,07-10s_rpm_stable,Flow_PRV,saturation,100.0,critical,signal saturated: +11244.4% above healthy,11244.41,0.27,0.05,11243.72,11244.94,11244.48,11244.37,0
+fault06_PRVLeakage,07-10s_rpm_stable,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,6
+fault06_PRVLeakage,10-15s_throttle_ramp,Flow_Bypass,offset,25.5,minor,6.5% lower than healthy,-6.49,1.88,0.34,-8.69,-3.29,-6.89,-5.5,0
+fault06_PRVLeakage,10-15s_throttle_ramp,Flow_PRV,saturation,100.0,critical,signal saturated: +11226.2% above healthy,11226.19,24.4,-14.44,11172.37,11244.83,11244.76,11186.96,0
+fault06_PRVLeakage,10-15s_throttle_ramp,RPM_Motor,oscillation,0.0,negligible,"17.0 zero crossings, amplitude ±0.0%",-0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,17
+fault06_PRVLeakage,10-15s_throttle_ramp,Signal_Throttle,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,5
+fault06_PRVLeakage,15-18s_high_plateau,Flow_Bypass,offset,23.5,minor,5.5% lower than healthy,-5.5,0.36,-0.0,-6.05,-4.88,-5.5,-5.5,0
+fault06_PRVLeakage,15-18s_high_plateau,Flow_PRV,saturation,100.0,critical,signal saturated: +11175.1% above healthy,11175.08,4.53,1.82,11167.12,11181.18,11168.93,11181.14,0
+fault06_PRVLeakage,15-18s_high_plateau,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,0.0,6
+fault06_PRVLeakage,18-22s_throttle_down,Flow_Bypass,offset,25.6,minor,6.6% lower than healthy,-6.56,1.27,-0.36,-7.95,-4.18,-5.5,-6.88,0
+fault06_PRVLeakage,18-22s_throttle_down,Flow_PRV,saturation,100.0,critical,signal saturated: +11226.4% above healthy,11226.38,17.33,11.97,11184.77,11238.08,11184.77,11237.57,0
+fault06_PRVLeakage,18-22s_throttle_down,RPM_Motor,oscillation,0.0,negligible,"10.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,-0.0,10
+fault06_PRVLeakage,18-22s_throttle_down,Signal_Throttle,oscillation,0.0,negligible,"4.0 zero crossings, amplitude ±0.0%",-0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,4
+fault06_PRVLeakage,22-30s_final_stable,Flow_Bypass,offset,26.2,minor,6.9% lower than healthy,-6.88,0.0,-0.0,-6.89,-6.88,-6.88,-6.88,0
+fault06_PRVLeakage,22-30s_final_stable,Flow_PRV,saturation,100.0,critical,signal saturated: +11237.4% above healthy,11237.36,0.3,0.02,11236.76,11238.22,11237.25,11237.0,0
+fault06_PRVLeakage,22-30s_final_stable,RPM_Motor,oscillation,0.0,negligible,"16.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,16

@@ -1,0 +1,47 @@
+FAULT: fault03_sensorDrop_Engine1
+
+--- 05-07s_rpm_ramp ---
+  Flow_Bypass               minor      (sev= 18.2) [noisy_offset] 3.3% higher, std=14.7%
+  Flow_Bypass               minor      (sev= 23.5) [drift] increasing at 4.09%/s (-0.0%→5.5%)
+  Flow_Engine1              major      (sev= 66.9) [noisy_offset] 44.7% lower, std=21.2%
+  Flow_Engine1              major      (sev= 77.8) [drift] decreasing at -32.49%/s (0.0%→-60.5%)
+  Flow_PRV                  minor      (sev= 16.1) [noise] std=2.6% around healthy mean
+  Flow_Pump                 minor      (sev= 25.4) [noise] std=6.5% around healthy mean
+  Flow_Pump                 minor      (sev= 17.0) [drift] increasing at 1.82%/s (-0.0%→2.9%)
+  Flow_Pump                 moderate   (sev= 30.4) [transient] peak 9.3% but mean≈2.0%
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 5.0 zero crossings, amplitude ±0.0%
+  p_Pump                    minor      (sev= 19.8) [noise] std=3.9% around healthy mean
+  p_Pump                    minor      (sev= 26.8) [transient] peak 7.2% but mean≈0.5%
+--- 07-10s_rpm_stable ---
+  Flow_Bypass               minor      (sev= 23.5) [offset] 5.5% higher than healthy
+  Flow_Engine1              major      (sev= 77.8) [offset] 60.5% lower than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 6.0 zero crossings, amplitude ±0.0%
+--- 10-15s_throttle_ramp ---
+  Flow_Bypass               minor      (sev= 25.0) [noisy_offset] 6.2% higher, std=2.3%
+  Flow_Engine1              major      (sev= 88.1) [noisy_offset] 77.6% lower, std=16.5%
+  Flow_Engine1              major      (sev= 62.6) [drift] decreasing at -10.79%/s (-60.5%→-99.7%)
+  Flow_Pump                 minor      (sev= 17.9) [offset] 3.2% higher than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 17.0 zero crossings, amplitude ±0.0%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 5.0 zero crossings, amplitude ±0.0%
+--- 15-18s_high_plateau ---
+  Flow_Bypass               minor      (sev= 26.4) [offset] 7.0% higher than healthy
+  Flow_Engine1              critical   (sev= 99.8) [dropout] signal lost: -99.7% offset from healthy
+  Flow_Pump                 minor      (sev= 18.8) [offset] 3.5% higher than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 6.0 zero crossings, amplitude ±0.0%
+--- 18-22s_throttle_down ---
+  Flow_Bypass               minor      (sev= 24.9) [offset] 6.2% higher than healthy
+  Flow_Engine1              critical   (sev= 92.1) [noisy_offset] 84.9% lower, std=8.0%
+  Flow_Engine1              moderate   (sev= 44.7) [drift] increasing at 6.40%/s (-97.7%→-77.7%)
+  Flow_Pump                 minor      (sev= 17.9) [offset] 3.2% higher than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 10.0 zero crossings, amplitude ±0.0%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 4.0 zero crossings, amplitude ±0.0%
+--- 22-30s_final_stable ---
+  Flow_Bypass               minor      (sev= 23.2) [offset] 5.4% higher than healthy
+  Flow_Engine1              major      (sev= 88.2) [offset] 77.7% lower than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 16.0 zero crossings, amplitude ±0.0%
+
+Total: 33 findings
+Critical: 2
+Major:    6
+Moderate: 2
+Minor:    15

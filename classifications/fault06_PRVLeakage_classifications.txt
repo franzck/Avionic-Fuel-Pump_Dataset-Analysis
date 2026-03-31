@@ -1,0 +1,41 @@
+FAULT: fault06_PRVLeakage
+
+--- 00-05s_idle ---
+  Flow_PRV                  critical   (sev=100.0) [saturation] signal saturated: +1102.6% above healthy
+--- 05-07s_rpm_ramp ---
+  Flow_Bypass               minor      (sev= 18.4) [noisy_offset] 3.4% lower, std=9.9%
+  Flow_Bypass               minor      (sev= 26.2) [drift] decreasing at -5.16%/s (-0.0%→-6.9%)
+  Flow_PRV                  critical   (sev=100.0) [saturation] signal saturated: +8854.6% above healthy
+  Flow_Pump                 minor      (sev= 21.2) [noise] std=4.5% around healthy mean
+  Flow_Pump                 minor      (sev= 24.0) [transient] peak 5.7% but mean≈0.7%
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 5.0 zero crossings, amplitude ±0.0%
+  p_Pump                    minor      (sev= 16.3) [noise] std=2.7% around healthy mean
+  p_Pump                    minor      (sev= 23.0) [transient] peak 5.3% but mean≈-0.8%
+--- 07-10s_rpm_stable ---
+  Flow_Bypass               minor      (sev= 26.2) [offset] 6.9% lower than healthy
+  Flow_PRV                  critical   (sev=100.0) [saturation] signal saturated: +11244.4% above healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 6.0 zero crossings, amplitude ±0.0%
+--- 10-15s_throttle_ramp ---
+  Flow_Bypass               minor      (sev= 25.5) [offset] 6.5% lower than healthy
+  Flow_PRV                  critical   (sev=100.0) [saturation] signal saturated: +11226.2% above healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 17.0 zero crossings, amplitude ±0.0%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 5.0 zero crossings, amplitude ±0.0%
+--- 15-18s_high_plateau ---
+  Flow_Bypass               minor      (sev= 23.5) [offset] 5.5% lower than healthy
+  Flow_PRV                  critical   (sev=100.0) [saturation] signal saturated: +11175.1% above healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 6.0 zero crossings, amplitude ±0.0%
+--- 18-22s_throttle_down ---
+  Flow_Bypass               minor      (sev= 25.6) [offset] 6.6% lower than healthy
+  Flow_PRV                  critical   (sev=100.0) [saturation] signal saturated: +11226.4% above healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 10.0 zero crossings, amplitude ±0.0%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 4.0 zero crossings, amplitude ±0.0%
+--- 22-30s_final_stable ---
+  Flow_Bypass               minor      (sev= 26.2) [offset] 6.9% lower than healthy
+  Flow_PRV                  critical   (sev=100.0) [saturation] signal saturated: +11237.4% above healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 16.0 zero crossings, amplitude ±0.0%
+
+Total: 26 findings
+Critical: 7
+Major:    0
+Moderate: 0
+Minor:    11

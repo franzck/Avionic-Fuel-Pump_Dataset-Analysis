@@ -1,0 +1,87 @@
+fault,time_window,sensor,pattern,severity,band,detail,mean_pct,std_pct,slope_pct_s,min_pct,max_pct,start_pct,end_pct,zero_crossings
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Bypass,noisy_offset,50.1,moderate,"25.1% higher, std=23.9%",25.06,23.95,33.25,-3.35,48.19,-0.0,45.27,1
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Bypass,drift,67.3,major,increasing at 33.25%/s (-0.0%→45.3%),25.06,23.95,33.25,-3.35,48.19,-0.0,45.27,1
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Engine1,noisy_offset,41.6,moderate,"17.3% lower, std=9.8%",-17.27,9.8,-15.51,-25.42,0.18,-0.0,-25.4,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Engine1,drift,50.4,moderate,decreasing at -15.51%/s (-0.0%→-25.4%),-17.27,9.8,-15.51,-25.42,0.18,-0.0,-25.4,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Engine2,noisy_offset,41.6,moderate,"17.3% lower, std=9.8%",-17.28,9.81,-15.53,-25.45,0.18,-0.0,-25.43,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Engine2,drift,50.4,moderate,decreasing at -15.53%/s (-0.0%→-25.4%),-17.28,9.81,-15.53,-25.45,0.18,-0.0,-25.43,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Engine3,noisy_offset,41.6,moderate,"17.3% lower, std=9.8%",-17.28,9.81,-15.53,-25.44,0.18,-0.0,-25.43,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Engine3,drift,50.4,moderate,decreasing at -15.53%/s (-0.0%→-25.4%),-17.28,9.81,-15.53,-25.44,0.18,-0.0,-25.43,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Engine4,noisy_offset,41.5,moderate,"17.3% lower, std=9.8%",-17.26,9.8,-15.52,-25.42,0.18,-0.0,-25.4,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Engine4,drift,50.4,moderate,decreasing at -15.52%/s (-0.0%→-25.4%),-17.26,9.8,-15.52,-25.42,0.18,-0.0,-25.4,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_PRV,noisy_offset,18.4,minor,"3.4% higher, std=4.9%",3.37,4.86,-3.71,-0.6,12.79,-0.0,0.12,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_PRV,drift,43.1,moderate,decreasing at -3.71%/s (-0.0%→0.1%),3.37,4.86,-3.71,-0.6,12.79,-0.0,0.12,0
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Pump,noise,28.8,minor,std=8.3% around healthy mean,-1.05,8.27,4.54,-13.47,9.18,-0.0,2.75,1
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Pump,drift,47.6,moderate,increasing at 4.54%/s (-0.0%→2.8%),-1.05,8.27,4.54,-13.47,9.18,-0.0,2.75,1
+fault07_orifice_FMU,05-07s_rpm_ramp,Flow_Pump,transient,36.7,moderate,peak 13.5% but mean≈-1.1%,-1.05,8.27,4.54,-13.47,9.18,-0.0,2.75,1
+fault07_orifice_FMU,05-07s_rpm_ramp,RPM_Motor,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,-0.0,5
+fault07_orifice_FMU,05-07s_rpm_ramp,p_Combustion,noise,14.4,minor,std=2.1% around healthy mean,-2.35,2.08,-2.1,-4.51,2.47,-0.0,-3.45,0
+fault07_orifice_FMU,05-07s_rpm_ramp,p_Combustion,drift,18.6,minor,decreasing at -2.10%/s (-0.0%→-3.5%),-2.35,2.08,-2.1,-4.51,2.47,-0.0,-3.45,0
+fault07_orifice_FMU,05-07s_rpm_ramp,p_FMU,noisy_offset,35.8,moderate,"12.8% lower, std=8.2%",-12.79,8.17,-13.07,-19.88,0.37,-0.0,-19.88,1
+fault07_orifice_FMU,05-07s_rpm_ramp,p_FMU,drift,44.6,moderate,decreasing at -13.07%/s (-0.0%→-19.9%),-12.79,8.17,-13.07,-19.88,0.37,-0.0,-19.88,1
+fault07_orifice_FMU,05-07s_rpm_ramp,p_Pump,noisy_offset,21.7,minor,"4.7% higher, std=7.1%",4.72,7.09,-4.64,-1.0,19.92,0.0,0.21,0
+fault07_orifice_FMU,05-07s_rpm_ramp,p_Pump,drift,48.2,moderate,decreasing at -4.64%/s (0.0%→0.2%),4.72,7.09,-4.64,-1.0,19.92,0.0,0.21,0
+fault07_orifice_FMU,05-07s_rpm_ramp,p_Shut,noisy_offset,35.5,moderate,"12.6% lower, std=8.1%",-12.63,8.06,-12.9,-19.63,0.4,-0.0,-19.62,1
+fault07_orifice_FMU,05-07s_rpm_ramp,p_Shut,drift,44.3,moderate,decreasing at -12.90%/s (-0.0%→-19.6%),-12.63,8.06,-12.9,-19.63,0.4,-0.0,-19.62,1
+fault07_orifice_FMU,07-10s_rpm_stable,Flow_Bypass,offset,67.3,major,45.3% higher than healthy,45.27,0.0,0.0,45.26,45.27,45.27,45.27,0
+fault07_orifice_FMU,07-10s_rpm_stable,Flow_Engine1,offset,50.4,moderate,25.4% lower than healthy,-25.4,0.0,-0.0,-25.4,-25.4,-25.4,-25.4,0
+fault07_orifice_FMU,07-10s_rpm_stable,Flow_Engine2,offset,50.4,moderate,25.4% lower than healthy,-25.43,0.0,-0.0,-25.43,-25.43,-25.43,-25.43,0
+fault07_orifice_FMU,07-10s_rpm_stable,Flow_Engine3,offset,50.4,moderate,25.4% lower than healthy,-25.43,0.0,-0.0,-25.43,-25.42,-25.43,-25.43,0
+fault07_orifice_FMU,07-10s_rpm_stable,Flow_Engine4,offset,50.4,moderate,25.4% lower than healthy,-25.4,0.0,-0.0,-25.41,-25.4,-25.4,-25.4,0
+fault07_orifice_FMU,07-10s_rpm_stable,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,6
+fault07_orifice_FMU,07-10s_rpm_stable,p_Combustion,offset,18.6,minor,3.5% lower than healthy,-3.45,0.0,-0.0,-3.45,-3.45,-3.45,-3.45,0
+fault07_orifice_FMU,07-10s_rpm_stable,p_FMU,offset,44.6,moderate,19.9% lower than healthy,-19.88,0.0,-0.0,-19.88,-19.87,-19.88,-19.88,0
+fault07_orifice_FMU,07-10s_rpm_stable,p_Shut,offset,44.3,moderate,19.6% lower than healthy,-19.62,0.0,-0.0,-19.63,-19.62,-19.63,-19.62,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Bypass,noisy_offset,62.7,major,"39.3% higher, std=8.7%",39.3,8.67,-5.12,21.32,47.6,45.27,21.6,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Bypass,drift,48.7,moderate,decreasing at -5.12%/s (45.3%→21.6%),39.3,8.67,-5.12,21.32,47.6,45.27,21.6,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Engine1,noisy_offset,46.4,moderate,"21.6% lower, std=5.6%",-21.56,5.56,3.3,-26.9,-9.96,-25.4,-9.96,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Engine1,drift,39.3,moderate,increasing at 3.30%/s (-25.4%→-10.0%),-21.56,5.56,3.3,-26.9,-9.96,-25.4,-9.96,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Engine2,noisy_offset,46.4,moderate,"21.5% lower, std=5.6%",-21.54,5.6,3.33,-26.89,-9.9,-25.43,-9.9,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Engine2,drift,39.4,moderate,increasing at 3.33%/s (-25.4%→-9.9%),-21.54,5.6,3.33,-26.89,-9.9,-25.43,-9.9,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Engine3,noisy_offset,46.4,moderate,"21.5% lower, std=5.6%",-21.54,5.6,3.33,-26.89,-9.9,-25.43,-9.9,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Engine3,drift,39.4,moderate,increasing at 3.33%/s (-25.4%→-9.9%),-21.54,5.6,3.33,-26.89,-9.9,-25.43,-9.9,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Engine4,noisy_offset,46.4,moderate,"21.6% lower, std=5.6%",-21.56,5.57,3.3,-26.9,-9.95,-25.41,-9.95,0
+fault07_orifice_FMU,10-15s_throttle_ramp,Flow_Engine4,drift,39.3,moderate,increasing at 3.30%/s (-25.4%→-9.9%),-21.56,5.57,3.3,-26.9,-9.95,-25.41,-9.95,0
+fault07_orifice_FMU,10-15s_throttle_ramp,RPM_Motor,oscillation,0.0,negligible,"17.0 zero crossings, amplitude ±0.0%",-0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,17
+fault07_orifice_FMU,10-15s_throttle_ramp,Signal_Throttle,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,5
+fault07_orifice_FMU,10-15s_throttle_ramp,p_Combustion,offset,17.7,minor,3.1% lower than healthy,-3.13,0.37,0.19,-3.48,-2.45,-3.45,-3.12,0
+fault07_orifice_FMU,10-15s_throttle_ramp,p_FMU,noisy_offset,46.9,moderate,"22.0% lower, std=3.8%",-21.98,3.81,-0.26,-29.1,-15.87,-19.88,-15.87,0
+fault07_orifice_FMU,10-15s_throttle_ramp,p_Shut,noisy_offset,46.6,moderate,"21.7% lower, std=3.8%",-21.7,3.75,-0.26,-28.7,-15.7,-19.63,-15.7,0
+fault07_orifice_FMU,15-18s_high_plateau,Flow_Bypass,offset,45.7,moderate,20.9% higher than healthy,20.87,1.62,1.25,19.66,25.25,19.98,24.97,0
+fault07_orifice_FMU,15-18s_high_plateau,Flow_Bypass,drift,22.3,minor,increasing at 1.25%/s (20.0%→25.0%),20.87,1.62,1.25,19.66,25.25,19.98,24.97,0
+fault07_orifice_FMU,15-18s_high_plateau,Flow_Engine1,offset,31.0,moderate,9.6% lower than healthy,-9.59,1.0,-0.84,-12.34,-8.98,-9.04,-12.34,0
+fault07_orifice_FMU,15-18s_high_plateau,Flow_Engine2,offset,30.9,moderate,9.5% lower than healthy,-9.53,0.99,-0.84,-12.27,-8.92,-8.98,-12.27,0
+fault07_orifice_FMU,15-18s_high_plateau,Flow_Engine3,offset,30.9,moderate,9.5% lower than healthy,-9.53,0.99,-0.84,-12.27,-8.93,-8.99,-12.27,0
+fault07_orifice_FMU,15-18s_high_plateau,Flow_Engine4,offset,31.0,moderate,9.6% lower than healthy,-9.58,1.0,-0.84,-12.34,-8.98,-9.04,-12.34,0
+fault07_orifice_FMU,15-18s_high_plateau,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,0.0,6
+fault07_orifice_FMU,15-18s_high_plateau,p_Combustion,offset,17.5,minor,3.0% lower than healthy,-3.05,0.08,0.03,-3.14,-2.87,-3.04,-2.9,0
+fault07_orifice_FMU,15-18s_high_plateau,p_FMU,offset,39.1,moderate,15.3% lower than healthy,-15.32,1.28,-1.08,-18.82,-14.51,-14.6,-18.82,0
+fault07_orifice_FMU,15-18s_high_plateau,p_FMU,drift,20.5,minor,decreasing at -1.08%/s (-14.6%→-18.8%),-15.32,1.28,-1.08,-18.82,-14.51,-14.6,-18.82,0
+fault07_orifice_FMU,15-18s_high_plateau,p_Shut,offset,38.9,moderate,15.2% lower than healthy,-15.16,1.26,-1.06,-18.59,-14.37,-14.45,-18.59,0
+fault07_orifice_FMU,15-18s_high_plateau,p_Shut,drift,20.3,minor,decreasing at -1.06%/s (-14.4%→-18.6%),-15.16,1.26,-1.06,-18.59,-14.37,-14.45,-18.59,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Bypass,noisy_offset,64.5,major,"41.7% higher, std=7.3%",41.66,7.28,5.65,26.15,47.34,26.53,47.34,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Bypass,drift,45.6,moderate,increasing at 5.65%/s (26.5%→47.3%),41.66,7.28,5.65,26.15,47.34,26.53,47.34,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Engine1,noisy_offset,48.1,moderate,"23.1% lower, std=4.7%",-23.1,4.65,-3.62,-26.74,-13.37,-13.37,-26.73,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Engine1,drift,36.6,moderate,decreasing at -3.62%/s (-13.4%→-26.7%),-23.1,4.65,-3.62,-26.74,-13.37,-13.37,-26.73,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Engine2,noisy_offset,48.0,moderate,"23.1% lower, std=4.7%",-23.05,4.67,-3.64,-26.71,-13.3,-13.3,-26.71,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Engine2,drift,36.6,moderate,decreasing at -3.64%/s (-13.3%→-26.7%),-23.05,4.67,-3.64,-26.71,-13.3,-13.3,-26.71,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Engine3,noisy_offset,48.0,moderate,"23.1% lower, std=4.7%",-23.05,4.67,-3.63,-26.71,-13.31,-13.31,-26.71,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Engine3,drift,36.6,moderate,decreasing at -3.63%/s (-13.3%→-26.7%),-23.05,4.67,-3.63,-26.71,-13.31,-13.31,-26.71,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Engine4,noisy_offset,48.1,moderate,"23.1% lower, std=4.7%",-23.1,4.65,-3.62,-26.74,-13.37,-13.37,-26.73,0
+fault07_orifice_FMU,18-22s_throttle_down,Flow_Engine4,drift,36.6,moderate,decreasing at -3.62%/s (-13.4%→-26.7%),-23.1,4.65,-3.62,-26.74,-13.37,-13.37,-26.73,0
+fault07_orifice_FMU,18-22s_throttle_down,RPM_Motor,oscillation,0.0,negligible,"10.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,-0.0,10
+fault07_orifice_FMU,18-22s_throttle_down,Signal_Throttle,oscillation,0.0,negligible,"4.0 zero crossings, amplitude ±0.0%",-0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,4
+fault07_orifice_FMU,18-22s_throttle_down,p_Combustion,offset,17.3,minor,3.0% lower than healthy,-3.0,0.35,-0.25,-3.32,-2.44,-2.83,-3.32,0
+fault07_orifice_FMU,18-22s_throttle_down,p_FMU,noisy_offset,51.6,moderate,"26.7% lower, std=2.5%",-26.67,2.51,-1.54,-29.13,-20.05,-20.05,-27.84,0
+fault07_orifice_FMU,18-22s_throttle_down,p_FMU,drift,27.9,minor,decreasing at -1.54%/s (-20.1%→-27.8%),-26.67,2.51,-1.54,-29.13,-20.05,-20.05,-27.84,0
+fault07_orifice_FMU,18-22s_throttle_down,p_Shut,noisy_offset,51.3,moderate,"26.3% lower, std=2.5%",-26.32,2.47,-1.51,-28.73,-19.8,-19.8,-27.46,0
+fault07_orifice_FMU,18-22s_throttle_down,p_Shut,drift,27.7,minor,decreasing at -1.51%/s (-19.8%→-27.5%),-26.32,2.47,-1.51,-28.73,-19.8,-19.8,-27.46,0
+fault07_orifice_FMU,22-30s_final_stable,Flow_Bypass,offset,68.8,major,47.3% higher than healthy,47.34,0.0,0.0,47.33,47.34,47.33,47.33,0
+fault07_orifice_FMU,22-30s_final_stable,Flow_Engine1,offset,51.7,moderate,26.7% lower than healthy,-26.73,0.0,-0.0,-26.74,-26.73,-26.73,-26.73,0
+fault07_orifice_FMU,22-30s_final_stable,Flow_Engine2,offset,51.7,moderate,26.7% lower than healthy,-26.71,0.0,-0.0,-26.71,-26.71,-26.71,-26.71,0
+fault07_orifice_FMU,22-30s_final_stable,Flow_Engine3,offset,51.7,moderate,26.7% lower than healthy,-26.71,0.0,-0.0,-26.71,-26.71,-26.71,-26.71,0
+fault07_orifice_FMU,22-30s_final_stable,Flow_Engine4,offset,51.7,moderate,26.7% lower than healthy,-26.73,0.0,-0.0,-26.74,-26.73,-26.73,-26.73,0
+fault07_orifice_FMU,22-30s_final_stable,RPM_Motor,oscillation,0.0,negligible,"16.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,16
+fault07_orifice_FMU,22-30s_final_stable,p_Combustion,offset,18.2,minor,3.3% lower than healthy,-3.32,0.0,-0.0,-3.32,-3.32,-3.32,-3.32,0
+fault07_orifice_FMU,22-30s_final_stable,p_FMU,offset,52.8,moderate,27.8% lower than healthy,-27.84,0.0,-0.0,-27.84,-27.83,-27.84,-27.83,0
+fault07_orifice_FMU,22-30s_final_stable,p_Shut,offset,52.4,moderate,27.5% lower than healthy,-27.46,0.0,-0.0,-27.47,-27.46,-27.46,-27.46,0

@@ -1,0 +1,29 @@
+fault,time_window,sensor,pattern,severity,band,detail,mean_pct,std_pct,slope_pct_s,min_pct,max_pct,start_pct,end_pct,zero_crossings
+fault05_pumpDisplacement,05-07s_rpm_ramp,Flow_Bypass,noisy_offset,34.9,moderate,"12.2% lower, std=13.4%",-12.16,13.38,-19.72,-27.99,1.48,-0.0,-26.71,0
+fault05_pumpDisplacement,05-07s_rpm_ramp,Flow_Bypass,drift,51.7,moderate,decreasing at -19.72%/s (-0.0%→-26.7%),-12.16,13.38,-19.72,-27.99,1.48,-0.0,-26.71,0
+fault05_pumpDisplacement,05-07s_rpm_ramp,Flow_PRV,noise,14.1,minor,std=2.0% around healthy mean,-1.16,2.0,0.94,-4.55,1.18,-0.0,-0.07,1
+fault05_pumpDisplacement,05-07s_rpm_ramp,Flow_Pump,noisy_offset,26.3,minor,"6.9% lower, std=6.1%",-6.91,6.07,-9.38,-14.19,0.85,-0.0,-13.66,0
+fault05_pumpDisplacement,05-07s_rpm_ramp,Flow_Pump,drift,37.0,moderate,decreasing at -9.38%/s (-0.0%→-13.7%),-6.91,6.07,-9.38,-14.19,0.85,-0.0,-13.66,0
+fault05_pumpDisplacement,05-07s_rpm_ramp,RPM_Motor,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,-0.0,5
+fault05_pumpDisplacement,05-07s_rpm_ramp,p_Pump,noise,17.4,minor,std=3.0% around healthy mean,-1.62,3.03,1.1,-7.27,1.91,0.0,-0.12,1
+fault05_pumpDisplacement,05-07s_rpm_ramp,p_Pump,drift,23.5,minor,increasing at 1.10%/s (0.0%→-0.1%),-1.62,3.03,1.1,-7.27,1.91,0.0,-0.12,1
+fault05_pumpDisplacement,05-07s_rpm_ramp,p_Pump,transient,27.0,minor,peak 7.3% but mean≈-1.6%,-1.62,3.03,1.1,-7.27,1.91,0.0,-0.12,1
+fault05_pumpDisplacement,07-10s_rpm_stable,Flow_Bypass,offset,51.8,moderate,26.8% lower than healthy,-26.81,0.15,-0.03,-27.09,-26.43,-26.84,-26.78,0
+fault05_pumpDisplacement,07-10s_rpm_stable,Flow_Pump,offset,37.0,moderate,13.7% lower than healthy,-13.71,0.08,-0.01,-13.85,-13.51,-13.72,-13.69,0
+fault05_pumpDisplacement,07-10s_rpm_stable,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,6
+fault05_pumpDisplacement,10-15s_throttle_ramp,Flow_Bypass,noisy_offset,50.3,moderate,"25.3% lower, std=3.1%",-25.28,3.14,1.18,-28.57,-20.1,-26.99,-22.82,0
+fault05_pumpDisplacement,10-15s_throttle_ramp,Flow_Bypass,drift,20.4,minor,increasing at 1.18%/s (-27.0%→-22.8%),-25.28,3.14,1.18,-28.57,-20.1,-26.99,-22.82,0
+fault05_pumpDisplacement,10-15s_throttle_ramp,Flow_Pump,offset,36.4,moderate,13.2% lower than healthy,-13.23,0.79,0.37,-14.08,-11.81,-13.8,-12.52,0
+fault05_pumpDisplacement,10-15s_throttle_ramp,RPM_Motor,oscillation,0.0,negligible,"17.0 zero crossings, amplitude ±0.0%",-0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,17
+fault05_pumpDisplacement,10-15s_throttle_ramp,Signal_Throttle,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,5
+fault05_pumpDisplacement,15-18s_high_plateau,Flow_Bypass,offset,47.2,moderate,22.3% lower than healthy,-22.27,0.38,-0.03,-22.76,-21.52,-21.99,-22.36,0
+fault05_pumpDisplacement,15-18s_high_plateau,Flow_Pump,offset,35.1,moderate,12.3% lower than healthy,-12.29,0.13,0.0,-12.44,-12.03,-12.19,-12.29,0
+fault05_pumpDisplacement,15-18s_high_plateau,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,0.0,6
+fault05_pumpDisplacement,18-22s_throttle_down,Flow_Bypass,noisy_offset,50.4,moderate,"25.4% lower, std=2.5%",-25.37,2.45,-1.36,-27.98,-21.21,-22.44,-26.85,0
+fault05_pumpDisplacement,18-22s_throttle_down,Flow_Bypass,drift,21.0,minor,decreasing at -1.36%/s (-22.4%→-26.9%),-25.37,2.45,-1.36,-27.98,-21.21,-22.44,-26.85,0
+fault05_pumpDisplacement,18-22s_throttle_down,Flow_Pump,offset,36.4,moderate,13.2% lower than healthy,-13.25,0.69,-0.44,-13.94,-12.0,-12.31,-13.74,0
+fault05_pumpDisplacement,18-22s_throttle_down,RPM_Motor,oscillation,0.0,negligible,"10.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,-0.0,10
+fault05_pumpDisplacement,18-22s_throttle_down,Signal_Throttle,oscillation,0.0,negligible,"4.0 zero crossings, amplitude ±0.0%",-0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,4
+fault05_pumpDisplacement,22-30s_final_stable,Flow_Bypass,offset,51.7,moderate,26.8% lower than healthy,-26.75,0.16,-0.01,-27.21,-26.42,-26.69,-26.55,0
+fault05_pumpDisplacement,22-30s_final_stable,Flow_Pump,offset,37.0,moderate,13.7% lower than healthy,-13.69,0.08,-0.01,-13.92,-13.52,-13.66,-13.59,0
+fault05_pumpDisplacement,22-30s_final_stable,RPM_Motor,oscillation,0.0,negligible,"16.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,16

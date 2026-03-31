@@ -1,0 +1,28 @@
+FAULT: fault01_whiteNoise
+
+--- 05-07s_rpm_ramp ---
+  Flow_Bypass               moderate   (sev= 32.8) [noise] std=10.7% around healthy mean
+  Flow_Bypass               moderate   (sev= 35.7) [transient] peak 12.7% but mean≈0.4%
+  Flow_Pump                 minor      (sev= 21.8) [noise] std=4.8% around healthy mean
+  Flow_Pump                 minor      (sev= 25.5) [transient] peak 6.5% but mean≈0.0%
+  RPM_Motor                 negligible (sev=  8.0) [oscillation] 4.0 zero crossings, amplitude ±0.6%
+  p_Pump                    minor      (sev= 16.6) [noise] std=2.8% around healthy mean
+--- 07-10s_rpm_stable ---
+  RPM_Motor                 negligible (sev=  9.4) [oscillation] 4.0 zero crossings, amplitude ±0.9%
+--- 10-15s_throttle_ramp ---
+  RPM_Motor                 minor      (sev= 10.3) [oscillation] 11.0 zero crossings, amplitude ±1.1%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 5.0 zero crossings, amplitude ±0.0%
+--- 15-18s_high_plateau ---
+  RPM_Motor                 negligible (sev=  8.7) [oscillation] 9.0 zero crossings, amplitude ±0.8%
+--- 18-22s_throttle_down ---
+  Flow_Bypass               minor      (sev= 14.2) [noise] std=2.0% around healthy mean
+  RPM_Motor                 minor      (sev= 11.2) [oscillation] 10.0 zero crossings, amplitude ±1.2%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 4.0 zero crossings, amplitude ±0.0%
+--- 22-30s_final_stable ---
+  RPM_Motor                 negligible (sev=  9.4) [oscillation] 22.0 zero crossings, amplitude ±0.9%
+
+Total: 14 findings
+Critical: 0
+Major:    0
+Moderate: 2
+Minor:    6

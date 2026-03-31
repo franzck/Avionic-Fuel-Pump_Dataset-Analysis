@@ -1,0 +1,32 @@
+fault,time_window,sensor,pattern,severity,band,detail,mean_pct,std_pct,slope_pct_s,min_pct,max_pct,start_pct,end_pct,zero_crossings
+fault09_highBoostPressure,00-05s_idle,Flow_PRV,offset,37.1,moderate,13.8% higher than healthy,13.78,0.0,-0.0,13.78,13.78,13.78,13.78,0
+fault09_highBoostPressure,05-07s_rpm_ramp,Flow_Bypass,noise,30.2,moderate,std=9.1% around healthy mean,0.1,9.13,0.6,-10.49,9.58,-0.0,0.85,1
+fault09_highBoostPressure,05-07s_rpm_ramp,Flow_Bypass,transient,32.4,moderate,peak 10.5% but mean≈0.1%,0.1,9.13,0.6,-10.49,9.58,-0.0,0.85,1
+fault09_highBoostPressure,05-07s_rpm_ramp,Flow_PRV,noisy_offset,19.2,minor,"3.7% higher, std=3.8%",3.7,3.84,-3.05,0.26,13.78,13.78,2.48,0
+fault09_highBoostPressure,05-07s_rpm_ramp,Flow_PRV,drift,33.6,moderate,decreasing at -3.05%/s (13.8%→2.5%),3.7,3.84,-3.05,0.26,13.78,13.78,2.48,0
+fault09_highBoostPressure,05-07s_rpm_ramp,Flow_Pump,noise,20.1,minor,std=4.0% around healthy mean,1.46,4.04,0.48,-4.19,6.23,0.0,1.84,0
+fault09_highBoostPressure,05-07s_rpm_ramp,Flow_Pump,transient,25.0,minor,peak 6.2% but mean≈1.5%,1.46,4.04,0.48,-4.19,6.23,0.0,1.84,0
+fault09_highBoostPressure,05-07s_rpm_ramp,RPM_Motor,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,-0.0,5
+fault09_highBoostPressure,05-07s_rpm_ramp,p_Combustion,noisy_offset,43.9,moderate,"19.3% lower, std=6.4%",-19.26,6.41,-5.93,-21.64,-0.03,-0.03,-21.46,0
+fault09_highBoostPressure,05-07s_rpm_ramp,p_Combustion,drift,46.3,moderate,decreasing at -5.93%/s (-0.0%→-21.5%),-19.26,6.41,-5.93,-21.64,-0.03,-0.03,-21.46,0
+fault09_highBoostPressure,05-07s_rpm_ramp,p_FMU,offset,17.3,minor,3.0% lower than healthy,-3.01,1.49,-0.64,-4.79,0.32,-0.01,-3.25,0
+fault09_highBoostPressure,05-07s_rpm_ramp,p_Pump,noise,17.1,minor,std=2.9% around healthy mean,-0.35,2.91,0.86,-4.49,4.72,0.01,0.0,2
+fault09_highBoostPressure,05-07s_rpm_ramp,p_Shut,offset,18.1,minor,3.3% lower than healthy,-3.28,1.54,-0.73,-5.06,0.2,-0.01,-3.55,0
+fault09_highBoostPressure,07-10s_rpm_stable,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,6
+fault09_highBoostPressure,07-10s_rpm_stable,p_Combustion,offset,46.3,moderate,21.5% lower than healthy,-21.46,0.0,-0.0,-21.46,-21.46,-21.46,-21.46,0
+fault09_highBoostPressure,07-10s_rpm_stable,p_FMU,offset,18.0,minor,3.2% lower than healthy,-3.25,0.0,-0.0,-3.25,-3.25,-3.25,-3.25,0
+fault09_highBoostPressure,07-10s_rpm_stable,p_Shut,offset,18.8,minor,3.5% lower than healthy,-3.55,0.0,-0.0,-3.55,-3.55,-3.55,-3.55,0
+fault09_highBoostPressure,10-15s_throttle_ramp,RPM_Motor,oscillation,0.0,negligible,"17.0 zero crossings, amplitude ±0.0%",-0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,17
+fault09_highBoostPressure,10-15s_throttle_ramp,Signal_Throttle,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,5
+fault09_highBoostPressure,10-15s_throttle_ramp,p_Combustion,offset,45.9,moderate,21.1% lower than healthy,-21.09,0.55,0.3,-21.53,-20.12,-21.46,-20.2,0
+fault09_highBoostPressure,15-18s_high_plateau,Flow_Engine1,offset,17.5,minor,3.0% higher than healthy,3.05,0.07,-0.02,2.92,3.15,3.09,2.97,0
+fault09_highBoostPressure,15-18s_high_plateau,Flow_Engine2,offset,17.5,minor,3.0% higher than healthy,3.05,0.07,-0.02,2.93,3.15,3.09,2.97,0
+fault09_highBoostPressure,15-18s_high_plateau,Flow_Engine3,offset,17.5,minor,3.1% higher than healthy,3.06,0.07,-0.02,2.93,3.15,3.1,2.97,0
+fault09_highBoostPressure,15-18s_high_plateau,Flow_Engine4,offset,17.5,minor,3.1% higher than healthy,3.07,0.07,-0.02,2.94,3.17,3.11,2.99,0
+fault09_highBoostPressure,15-18s_high_plateau,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,0.0,6
+fault09_highBoostPressure,15-18s_high_plateau,p_Combustion,offset,44.9,moderate,20.1% lower than healthy,-20.15,0.04,-0.02,-20.24,-20.09,-20.12,-20.22,0
+fault09_highBoostPressure,18-22s_throttle_down,RPM_Motor,oscillation,0.0,negligible,"10.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,-0.0,10
+fault09_highBoostPressure,18-22s_throttle_down,Signal_Throttle,oscillation,0.0,negligible,"4.0 zero crossings, amplitude ±0.0%",-0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,4
+fault09_highBoostPressure,18-22s_throttle_down,p_Combustion,offset,46.0,moderate,21.1% lower than healthy,-21.14,0.45,-0.3,-21.49,-20.24,-20.27,-21.41,0
+fault09_highBoostPressure,22-30s_final_stable,RPM_Motor,oscillation,0.0,negligible,"16.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,16
+fault09_highBoostPressure,22-30s_final_stable,p_Combustion,offset,46.3,moderate,21.4% lower than healthy,-21.41,0.0,0.0,-21.41,-21.41,-21.41,-21.41,0

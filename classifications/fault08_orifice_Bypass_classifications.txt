@@ -1,0 +1,36 @@
+FAULT: fault08_orifice_Bypass
+
+--- 05-07s_rpm_ramp ---
+  Flow_Bypass               moderate   (sev= 30.8) [noise] std=9.5% around healthy mean
+  Flow_Bypass               minor      (sev= 24.1) [drift] decreasing at -4.34%/s (0.0%→-5.8%)
+  Flow_Bypass               moderate   (sev= 37.2) [transient] peak 13.9% but mean≈-2.9%
+  Flow_Pump                 minor      (sev= 20.3) [noise] std=4.1% around healthy mean
+  Flow_Pump                 minor      (sev= 15.1) [drift] decreasing at -1.72%/s (0.0%→-2.3%)
+  Flow_Pump                 minor      (sev= 24.9) [transient] peak 6.2% but mean≈-1.1%
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 5.0 zero crossings, amplitude ±0.0%
+  p_Combustion              minor      (sev= 15.1) [noise] std=2.3% around healthy mean
+  p_Combustion              minor      (sev= 23.3) [transient] peak 5.4% but mean≈-2.6%
+  p_Pump                    minor      (sev= 16.4) [noise] std=2.7% around healthy mean
+--- 07-10s_rpm_stable ---
+  Flow_Bypass               minor      (sev= 24.1) [offset] 5.8% lower than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 6.0 zero crossings, amplitude ±0.0%
+--- 10-15s_throttle_ramp ---
+  Flow_Bypass               minor      (sev= 25.2) [offset] 6.3% lower than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 17.0 zero crossings, amplitude ±0.0%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 5.0 zero crossings, amplitude ±0.0%
+--- 15-18s_high_plateau ---
+  Flow_Bypass               minor      (sev= 26.5) [offset] 7.0% lower than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 6.0 zero crossings, amplitude ±0.0%
+--- 18-22s_throttle_down ---
+  Flow_Bypass               minor      (sev= 25.5) [offset] 6.5% lower than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 10.0 zero crossings, amplitude ±0.0%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 4.0 zero crossings, amplitude ±0.0%
+--- 22-30s_final_stable ---
+  Flow_Bypass               minor      (sev= 25.1) [offset] 6.3% lower than healthy
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 16.0 zero crossings, amplitude ±0.0%
+
+Total: 22 findings
+Critical: 0
+Major:    0
+Moderate: 2
+Minor:    12

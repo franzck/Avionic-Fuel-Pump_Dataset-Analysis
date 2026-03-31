@@ -1,0 +1,36 @@
+FAULT: fault02_sensorDrop_pFMU
+
+--- 05-07s_rpm_ramp ---
+  Flow_Bypass               moderate   (sev= 32.4) [noise] std=10.5% around healthy mean
+  Flow_Bypass               moderate   (sev= 34.9) [transient] peak 12.2% but mean≈-0.0%
+  Flow_Pump                 minor      (sev= 21.4) [noise] std=4.6% around healthy mean
+  Flow_Pump                 minor      (sev= 24.0) [transient] peak 5.8% but mean≈-0.0%
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 5.0 zero crossings, amplitude ±0.0%
+  p_FMU                     major      (sev= 60.9) [noisy_offset] 37.0% lower, std=15.8%
+  p_FMU                     major      (sev= 69.9) [drift] decreasing at -24.14%/s (0.0%→-48.9%)
+  p_Pump                    minor      (sev= 16.6) [noise] std=2.8% around healthy mean
+--- 07-10s_rpm_stable ---
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 6.0 zero crossings, amplitude ±0.0%
+  p_FMU                     major      (sev= 69.9) [offset] 48.9% lower than healthy
+--- 10-15s_throttle_ramp ---
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 17.0 zero crossings, amplitude ±0.0%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 5.0 zero crossings, amplitude ±0.0%
+  p_FMU                     major      (sev= 83.7) [noisy_offset] 70.0% lower, std=20.8%
+  p_FMU                     major      (sev= 71.1) [drift] decreasing at -13.66%/s (-48.9%→-99.4%)
+--- 15-18s_high_plateau ---
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 6.0 zero crossings, amplitude ±0.0%
+  p_FMU                     critical   (sev= 99.7) [dropout] signal lost: -99.5% offset from healthy
+--- 18-22s_throttle_down ---
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 10.0 zero crossings, amplitude ±0.0%
+  Signal_Throttle           negligible (sev=  0.0) [oscillation] 4.0 zero crossings, amplitude ±0.0%
+  p_FMU                     major      (sev= 88.2) [noisy_offset] 77.8% lower, std=11.1%
+  p_FMU                     moderate   (sev= 53.1) [drift] increasing at 8.89%/s (-96.2%→-68.0%)
+--- 22-30s_final_stable ---
+  RPM_Motor                 negligible (sev=  0.0) [oscillation] 16.0 zero crossings, amplitude ±0.0%
+  p_FMU                     major      (sev= 82.5) [offset] 68.0% lower than healthy
+
+Total: 22 findings
+Critical: 1
+Major:    7
+Moderate: 3
+Minor:    3

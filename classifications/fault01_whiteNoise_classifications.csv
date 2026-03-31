@@ -1,0 +1,15 @@
+fault,time_window,sensor,pattern,severity,band,detail,mean_pct,std_pct,slope_pct_s,min_pct,max_pct,start_pct,end_pct,zero_crossings
+fault01_whiteNoise,05-07s_rpm_ramp,Flow_Bypass,noise,32.8,moderate,std=10.7% around healthy mean,0.38,10.73,0.51,-12.59,12.74,-0.0,-0.38,2
+fault01_whiteNoise,05-07s_rpm_ramp,Flow_Bypass,transient,35.7,moderate,peak 12.7% but mean≈0.4%,0.38,10.73,0.51,-12.59,12.74,-0.0,-0.38,2
+fault01_whiteNoise,05-07s_rpm_ramp,Flow_Pump,noise,21.8,minor,std=4.8% around healthy mean,0.01,4.77,0.54,-6.05,6.49,-0.0,-0.19,1
+fault01_whiteNoise,05-07s_rpm_ramp,Flow_Pump,transient,25.5,minor,peak 6.5% but mean≈0.0%,0.01,4.77,0.54,-6.05,6.49,-0.0,-0.19,1
+fault01_whiteNoise,05-07s_rpm_ramp,RPM_Motor,oscillation,8.0,negligible,"4.0 zero crossings, amplitude ±0.6%",-0.03,0.35,0.05,-0.68,0.61,0.0,0.61,4
+fault01_whiteNoise,05-07s_rpm_ramp,p_Pump,noise,16.6,minor,std=2.8% around healthy mean,-0.29,2.76,0.36,-4.38,4.03,0.0,-0.0,1
+fault01_whiteNoise,07-10s_rpm_stable,RPM_Motor,oscillation,9.4,negligible,"4.0 zero crossings, amplitude ±0.9%",-0.19,0.47,-0.12,-1.15,0.6,-0.74,-1.15,4
+fault01_whiteNoise,10-15s_throttle_ramp,RPM_Motor,oscillation,10.3,minor,"11.0 zero crossings, amplitude ±1.1%",0.05,0.44,-0.08,-0.7,1.43,1.43,-0.36,11
+fault01_whiteNoise,10-15s_throttle_ramp,Signal_Throttle,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,5
+fault01_whiteNoise,15-18s_high_plateau,RPM_Motor,oscillation,8.7,negligible,"9.0 zero crossings, amplitude ±0.8%",0.01,0.45,-0.05,-0.82,0.68,0.57,-0.36,9
+fault01_whiteNoise,18-22s_throttle_down,Flow_Bypass,noise,14.2,minor,std=2.0% around healthy mean,0.38,2.03,0.05,-4.04,3.99,-0.89,0.86,0
+fault01_whiteNoise,18-22s_throttle_down,RPM_Motor,oscillation,11.2,minor,"10.0 zero crossings, amplitude ±1.2%",0.02,0.63,-0.15,-1.08,1.41,1.41,0.06,10
+fault01_whiteNoise,18-22s_throttle_down,Signal_Throttle,oscillation,0.0,negligible,"4.0 zero crossings, amplitude ±0.0%",-0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,4
+fault01_whiteNoise,22-30s_final_stable,RPM_Motor,oscillation,9.4,negligible,"22.0 zero crossings, amplitude ±0.9%",-0.03,0.4,-0.03,-0.95,0.8,-0.15,-0.43,22

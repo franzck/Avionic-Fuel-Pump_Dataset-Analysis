@@ -1,0 +1,23 @@
+fault,time_window,sensor,pattern,severity,band,detail,mean_pct,std_pct,slope_pct_s,min_pct,max_pct,start_pct,end_pct,zero_crossings
+fault02_sensorDrop_pFMU,05-07s_rpm_ramp,Flow_Bypass,noise,32.4,moderate,std=10.5% around healthy mean,-0.0,10.49,-0.0,-12.17,10.83,-0.0,0.0,2
+fault02_sensorDrop_pFMU,05-07s_rpm_ramp,Flow_Bypass,transient,34.9,moderate,peak 12.2% but mean≈-0.0%,-0.0,10.49,-0.0,-12.17,10.83,-0.0,0.0,2
+fault02_sensorDrop_pFMU,05-07s_rpm_ramp,Flow_Pump,noise,21.4,minor,std=4.6% around healthy mean,-0.0,4.6,-0.0,-5.75,5.51,-0.0,-0.0,1
+fault02_sensorDrop_pFMU,05-07s_rpm_ramp,Flow_Pump,transient,24.0,minor,peak 5.8% but mean≈-0.0%,-0.0,4.6,-0.0,-5.75,5.51,-0.0,-0.0,1
+fault02_sensorDrop_pFMU,05-07s_rpm_ramp,RPM_Motor,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,-0.0,5
+fault02_sensorDrop_pFMU,05-07s_rpm_ramp,p_FMU,noisy_offset,60.9,major,"37.0% lower, std=15.8%",-37.05,15.85,-24.14,-48.88,0.01,0.01,-48.88,1
+fault02_sensorDrop_pFMU,05-07s_rpm_ramp,p_FMU,drift,69.9,major,decreasing at -24.14%/s (0.0%→-48.9%),-37.05,15.85,-24.14,-48.88,0.01,0.01,-48.88,1
+fault02_sensorDrop_pFMU,05-07s_rpm_ramp,p_Pump,noise,16.6,minor,std=2.8% around healthy mean,-0.0,2.77,0.0,-4.08,4.41,0.0,0.0,0
+fault02_sensorDrop_pFMU,07-10s_rpm_stable,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,6
+fault02_sensorDrop_pFMU,07-10s_rpm_stable,p_FMU,offset,69.9,major,48.9% lower than healthy,-48.88,0.0,-0.0,-48.89,-48.88,-48.88,-48.88,0
+fault02_sensorDrop_pFMU,10-15s_throttle_ramp,RPM_Motor,oscillation,0.0,negligible,"17.0 zero crossings, amplitude ±0.0%",-0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,17
+fault02_sensorDrop_pFMU,10-15s_throttle_ramp,Signal_Throttle,oscillation,0.0,negligible,"5.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,0.0,5
+fault02_sensorDrop_pFMU,10-15s_throttle_ramp,p_FMU,noisy_offset,83.7,major,"70.0% lower, std=20.8%",-70.01,20.84,-13.66,-99.42,-48.88,-48.88,-99.42,0
+fault02_sensorDrop_pFMU,10-15s_throttle_ramp,p_FMU,drift,71.1,major,decreasing at -13.66%/s (-48.9%→-99.4%),-70.01,20.84,-13.66,-99.42,-48.88,-48.88,-99.42,0
+fault02_sensorDrop_pFMU,15-18s_high_plateau,RPM_Motor,oscillation,0.0,negligible,"6.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,0.0,0.0,6
+fault02_sensorDrop_pFMU,15-18s_high_plateau,p_FMU,dropout,99.7,critical,signal lost: -99.5% offset from healthy,-99.45,0.82,0.68,-99.99,-97.16,-99.78,-97.16,0
+fault02_sensorDrop_pFMU,18-22s_throttle_down,RPM_Motor,oscillation,0.0,negligible,"10.0 zero crossings, amplitude ±0.0%",0.0,0.0,0.0,-0.0,0.0,-0.0,-0.0,10
+fault02_sensorDrop_pFMU,18-22s_throttle_down,Signal_Throttle,oscillation,0.0,negligible,"4.0 zero crossings, amplitude ±0.0%",-0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,4
+fault02_sensorDrop_pFMU,18-22s_throttle_down,p_FMU,noisy_offset,88.2,major,"77.8% lower, std=11.1%",-77.84,11.05,8.89,-96.23,-68.01,-96.23,-68.02,0
+fault02_sensorDrop_pFMU,18-22s_throttle_down,p_FMU,drift,53.1,moderate,increasing at 8.89%/s (-96.2%→-68.0%),-77.84,11.05,8.89,-96.23,-68.01,-96.23,-68.02,0
+fault02_sensorDrop_pFMU,22-30s_final_stable,RPM_Motor,oscillation,0.0,negligible,"16.0 zero crossings, amplitude ±0.0%",0.0,0.0,-0.0,-0.0,0.0,0.0,0.0,16
+fault02_sensorDrop_pFMU,22-30s_final_stable,p_FMU,offset,82.5,major,68.0% lower than healthy,-68.02,0.0,-0.0,-68.03,-68.01,-68.02,-68.02,0
