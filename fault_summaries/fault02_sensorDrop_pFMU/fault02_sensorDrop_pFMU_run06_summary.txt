@@ -1,0 +1,26 @@
+Source: ./residuals/fault02_sensorDrop_pFMU/fault02_sensorDrop_pFMU_run06_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_rpm_up**
+The Flow_Bypass sensor has a high Std% (4.3%), indicating added noise. The p_FMU sensor has a large negative Mean% (-14.1%), suggesting a sustained offset (reads lower). No other significant deviations are observed.
+
+**08-12s_high_plateau**
+No significant deviations are observed in this regime.
+
+**12-15s_throttle_down**
+The Flow_Bypass sensor has a high Std% (3.4%), indicating added noise. The p_FMU sensor still has a large negative Mean% (-10.5%), suggesting a sustained offset (reads lower). No other significant deviations are observed.
+
+**15-18s_high_plateau**
+No significant deviations are observed in this regime.
+
+**18-22s_throttle_down**
+The Flow_Bypass sensor has a high Std% (2.4%), indicating added noise. The p_FMU sensor still has a large negative Mean% (-8.9%), suggesting a sustained offset (reads lower). No other significant deviations are observed.
+
+**22-30s_final_stable**
+No significant deviations are observed in this regime.
+
+Note that the p_FMU sensor consistently shows a sustained offset (reads lower) throughout most of the regimes, while the Flow_Bypass sensor occasionally exhibits added noise.

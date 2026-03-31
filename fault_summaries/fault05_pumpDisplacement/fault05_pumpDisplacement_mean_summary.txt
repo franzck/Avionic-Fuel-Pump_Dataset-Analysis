@@ -1,0 +1,29 @@
+Source: ./residuals/fault05_pumpDisplacement/fault05_pumpDisplacement_kurvendiskussion_mean.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_Bypass has a sustained offset (reads lower) with Mean% ≈ -22%. Flow_Pump is drifting within the window with a steep Slope. No other sensors show significant deviations.
+
+**12-15s_high_plateau**
+Flow_Bypass still has a sustained offset (reads lower) with Mean% ≈ -22%. p_FMU and p_Pump have added noise with high Std% (> 2%). Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 are oscillating around the reference value with many ZeroCr.
+
+**15-18s_throttle_down**
+Flow_Bypass's sustained offset (reads lower) has decreased to Mean% ≈ -12%. p_FMU and p_Pump still have added noise. Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 are no longer oscillating.
+
+**18-22s_high_plateau**
+Flow_Bypass's sustained offset (reads lower) has increased to Mean% ≈ -22%. p_FMU and p_Pump still have added noise. No other sensors show significant deviations.
+
+**22-25s_throttle_down**
+Flow_Bypass's sustained offset (reads lower) has decreased to Mean% ≈ -12%. p_FMU and p_Pump still have added noise. Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 are oscillating around the reference value with many ZeroCr.
+
+**25-30s_final_stable**
+No significant deviations.
+
+Note that I've only described sensors with features clearly above noise (~2% absolute) as per your instructions.

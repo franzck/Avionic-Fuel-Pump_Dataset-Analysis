@@ -1,0 +1,29 @@
+Source: ./residuals/fault09_highBoostPressure/fault09_highBoostPressure_run06_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_Bypass has a sustained offset (reads lower) with Mean% ≈ -6%. Flow_PRV has a slight drift within the window with Slope = 0.02. No other significant deviations.
+
+**12-15s_high_plateau**
+Flow_Bypass continues to have a sustained offset (reads lower) with Mean% ≈ -7%. Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 all have added noise with Std% > 2%. No other significant deviations.
+
+**15-18s_throttle_down**
+Flow_Bypass has a slight drift within the window with Slope = -0.06. p_Combustion has a sustained offset (reads lower) with Mean% ≈ -4%. No other significant deviations.
+
+**18-22s_high_plateau**
+No significant deviations.
+
+**22-25s_throttle_down**
+Flow_Bypass continues to have a slight drift within the window with Slope = -0.15. p_Combustion has a sustained offset (reads lower) with Mean% ≈ -3.8%. No other significant deviations.
+
+**25-30s_final_stable**
+No significant deviations.
+
+Note that I've only focused on sensors with features clearly above noise (~2% absolute), as per the instructions.

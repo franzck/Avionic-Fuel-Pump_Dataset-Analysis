@@ -1,0 +1,23 @@
+Source: ./residuals/fault02_sensorDrop_pFMU/fault02_sensorDrop_pFMU_run07_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_Bypass has a sustained offset (reads lower) with Mean% ≈ -7%. Flow_Pump is drifting within the window with a steep Slope. No other significant deviations.
+
+**12-15s_high_plateau**
+Flow_Bypass still has a sustained offset (reads lower) with Mean% ≈ -10%. p_FMU has added noise with high Std% ≈ 8%. No other significant deviations.
+
+**15-18s_throttle_down**
+Flow_Bypass's sustained offset (reads lower) is decreasing, with Mean% ≈ -8%. Flow_Pump is still drifting within the window with a steep Slope. p_FMU's added noise is still present with high Std% ≈ 11%.
+
+**18-22s_final_stable**
+No significant deviations.
+
+Note that I've only focused on sensors with features clearly above noise (~2% absolute) and described what the numbers show without speculating about fault types or root causes.

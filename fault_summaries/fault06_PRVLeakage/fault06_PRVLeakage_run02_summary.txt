@@ -1,0 +1,33 @@
+Source: ./residuals/fault06_PRVLeakage/fault06_PRVLeakage_run02_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_PRV has a steep Slope, indicating DRIFTING within the window.
+p_Combustion and p_FMU have large negative Mean%, indicating SUSTAINED OFFSET (reads lower).
+
+**12-15s_high_plateau**
+Flow_Bypass has high Std%, indicating ADDED NOISE.
+Flow_Engine1-4 have low Mean% but steep Slope, indicating DRIFTING within the window.
+
+**15-18s_throttle_down**
+Flow_PRV has a steep Slope, indicating DRIFTING within the window.
+p_Combustion and p_FMU have large negative Mean%, indicating SUSTAINED OFFSET (reads lower).
+
+**18-22s_high_plateau**
+No significant deviations.
+
+**22-25s_throttle_up**
+Flow_Bypass has high Std%, indicating ADDED NOISE.
+Flow_Engine1-4 have low Mean% but steep Slope, indicating DRIFTING within the window.
+
+**25-30s_final_stable**
+No significant deviations.
+
+Note that I've only focused on sensors with features clearly above noise (~2% absolute) and described what the numbers show without speculating about fault types or root causes.

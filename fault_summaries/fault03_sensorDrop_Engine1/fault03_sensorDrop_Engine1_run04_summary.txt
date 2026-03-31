@@ -1,0 +1,35 @@
+Source: ./residuals/fault03_sensorDrop_Engine1/fault03_sensorDrop_Engine1_run04_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_Bypass has a high Std% (~10%), indicating added noise.
+Flow_Engine1 has a large negative Mean% (~-20%), indicating a sustained offset (reads lower).
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**12-15s_high_plateau**
+No significant deviations.
+
+**15-18s_throttle_down**
+Flow_Bypass has a high Std% (~5%), indicating added noise.
+Flow_Engine1 has a large negative Mean% (~-30%), indicating a sustained offset (reads lower).
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_high_plateau**
+No significant deviations.
+
+**22-25s_throttle_up**
+Flow_Bypass has a high Std% (~5%), indicating added noise.
+Flow_Engine1 has a large negative Mean% (~-20%), indicating a sustained offset (reads lower).
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**25-30s_final_stable**
+No significant deviations.
+
+Note that I've only focused on sensors with features clearly above noise (~2% absolute) and described what the numbers show without speculating about fault types or root causes.

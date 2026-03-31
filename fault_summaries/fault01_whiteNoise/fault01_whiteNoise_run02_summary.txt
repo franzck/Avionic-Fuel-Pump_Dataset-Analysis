@@ -1,0 +1,29 @@
+Source: ./residuals/fault01_whiteNoise/fault01_whiteNoise_run02_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_Bypass has a sustained offset (reads lower) with Mean% ≈ -10%. Flow_Pump is drifting within the window with a steep Slope. RPM_Motor has added noise with high Std%.
+
+**12-15s_high_plateau**
+Flow_Bypass continues to have a sustained offset (reads lower) with Mean% ≈ -10%. Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 are oscillating around the reference value with many ZeroCr. p_FMU has added noise with high Std%.
+
+**15-18s_throttle_down**
+Flow_Bypass's sustained offset (reads lower) is reduced to Mean% ≈ -5%. Flow_Pump is no longer drifting within the window. RPM_Motor still has added noise with high Std%. Signal_Throttle has a small but noticeable deviation in Start% vs End%.
+
+**18-22s_throttle_up**
+Flow_Bypass's sustained offset (reads lower) increases to Mean% ≈ -15%. Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 are no longer oscillating around the reference value. p_FMU has a small but noticeable deviation in Start% vs End%.
+
+**22-25s_high_plateau**
+Flow_Bypass continues to have a sustained offset (reads lower) with Mean% ≈ -15%. No other significant deviations.
+
+**25-30s_final_stable**
+No significant deviations.
+
+Note that I've only described the sensors with features clearly above noise (~2% absolute), as per your instructions.

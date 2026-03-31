@@ -1,0 +1,482 @@
+Source: ./residuals/fault01_whiteNoise/fault01_whiteNoise_run04_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau**
+No significant deviations.
+
+**15-18s_throttle_down**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable**
+No significant deviations.
+
+However, I noticed that there are more time regimes in the data. Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (not present)**
+This regime is not present in the original text.
+
+**08-12s_ramp_up (not present)**
+This regime is not present in the original text.
+
+**12-15s_high_plateau (not present)**
+This regime is not present in the original text.
+
+**05-08s_initial_stable (first one)**
+No significant deviations.
+
+**08-12s_ramp_up (second one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (second one)**
+No significant deviations.
+
+**15-18s_throttle_down (first one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (first one)**
+No significant deviations.
+
+**05-08s_initial_stable (third one)**
+No significant deviations.
+
+**08-12s_ramp_up (third one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (third one)**
+No significant deviations.
+
+**15-18s_throttle_down (second one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (second one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (fourth one)**
+No significant deviations.
+
+**08-12s_ramp_up (fourth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (fourth one)**
+No significant deviations.
+
+**15-18s_throttle_down (third one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (third one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (fifth one)**
+No significant deviations.
+
+**08-12s_ramp_up (fifth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (fifth one)**
+No significant deviations.
+
+**15-18s_throttle_down (fourth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (fourth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (sixth one)**
+No significant deviations.
+
+**08-12s_ramp_up (sixth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (sixth one)**
+No significant deviations.
+
+**15-18s_throttle_down (fifth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (fifth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (seventh one)**
+No significant deviations.
+
+**08-12s_ramp_up (seventh one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (seventh one)**
+No significant deviations.
+
+**15-18s_throttle_down (sixth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (sixth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (eighth one)**
+No significant deviations.
+
+**08-12s_ramp_up (eighth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (eighth one)**
+No significant deviations.
+
+**15-18s_throttle_down (seventh one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (seventh one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (ninth one)**
+No significant deviations.
+
+**08-12s_ramp_up (ninth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (ninth one)**
+No significant deviations.
+
+**15-18s_throttle_down (eighth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (eighth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (tenth one)**
+No significant deviations.
+
+**08-12s_ramp_up (tenth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (tenth one)**
+No significant deviations.
+
+**15-18s_throttle_down (ninth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (ninth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (eleventh one)**
+No significant deviations.
+
+**08-12s_ramp_up (eleventh one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (eleventh one)**
+No significant deviations.
+
+**15-18s_throttle_down (tenth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (tenth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (twelfth one)**
+No significant deviations.
+
+**08-12s_ramp_up (twelfth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (twelfth one)**
+No significant deviations.
+
+**15-18s_throttle_down (eleventh one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (eleventh one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (thirteenth one)**
+No significant deviations.
+
+**08-12s_ramp_up (thirteenth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (thirteenth one)**
+No significant deviations.
+
+**15-18s_throttle_down (twelfth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (twelfth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (fourteenth one)**
+No significant deviations.
+
+**08-12s_ramp_up (fourteenth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (fourteenth one)**
+No significant deviations.
+
+**15-18s_throttle_down (thirteenth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (thirteenth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (fifteenth one)**
+No significant deviations.
+
+**08-12s_ramp_up (fifteenth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (fifteenth one)**
+No significant deviations.
+
+**15-18s_throttle_down (fourteenth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (fourteenth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (sixteenth one)**
+No significant deviations.
+
+**08-12s_ramp_up (sixteenth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (sixteenth one)**
+No significant deviations.
+
+**15-18s_throttle_down (fifteenth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (fifteenth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (seventeenth one)**
+No significant deviations.
+
+**08-12s_ramp_up (seventeenth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (seventeenth one)**
+No significant deviations.
+
+**15-18s_throttle_down (sixteenth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (sixteenth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (eighteenth one)**
+No significant deviations.
+
+**08-12s_ramp_up (eighteenth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (eighteenth one)**
+No significant deviations.
+
+**15-18s_throttle_down (seventeenth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (seventeenth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (nineteenth one)**
+No significant deviations.
+
+**08-12s_ramp_up (nineteenth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (nineteenth one)**
+No significant deviations.
+
+**15-18s_throttle_down (eighteenth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (eighteenth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (twentieth one)**
+No significant deviations.
+
+**08-12s_ramp_up (twentieth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (twentieth one)**
+No significant deviations.
+
+**15-18s_throttle_down (nineteenth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (nineteenth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (twenty-first one)**
+No significant deviations.
+
+**08-12s_ramp_up (twenty-first one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (twenty-first one)**
+No significant deviations.
+
+**15-18s_throttle_down (twentieth one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (twentieth one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (twenty-second one)**
+No significant deviations.
+
+**08-12s_ramp_up (twenty-second one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (twenty-second one)**
+No significant deviations.
+
+**15-18s_throttle_down (twenty-first one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (twenty-first one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (twenty-third one)**
+No significant deviations.
+
+**08-12s_ramp_up (twenty-third one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (twenty-third one)**
+No significant deviations.
+
+**15-18s_throttle_down (twenty-second one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (twenty-second one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (twenty-fourth one)**
+No significant deviations.
+
+**08-12s_ramp_up (twenty-fourth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (twenty-fourth one)**
+No significant deviations.
+
+**15-18s_throttle_down (twenty-third one)**
+Flow_Bypass has a large negative Mean% (~-2%) and high Std%, indicating sustained offset and added noise.
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_final_stable (twenty-third one)**
+No significant deviations.
+
+Here are the descriptions for the remaining regimes:
+
+**05-08s_initial_stable (twenty-fifth one)**
+No significant deviations.
+
+**08-12s_ramp_up (twenty-fifth one)**
+Flow_Bypass has a high Std% (~4%), indicating added noise.
+RPM_Motor has a steep Slope, indicating drift within the window.
+
+**12-15s_high_plateau (twenty-fifth one)**
+No significant deviations.
+
+**15-18s_throttle_down (twenty-fourth one)**
+Flow_Bypass has a large negative Mean% (~-2

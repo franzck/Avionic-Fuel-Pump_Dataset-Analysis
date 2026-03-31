@@ -1,0 +1,30 @@
+Source: ./residuals/fault04_pumpLeakage/fault04_pumpLeakage_run04_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_Bypass has a high Std% (4.1%), indicating added noise.
+p_Combustion, p_FMU, and p_Pump have large negative Mean% values (-14.3%, -17.8%, and -18.0%, respectively), indicating sustained offsets.
+
+**12-15s_high_plateau**
+Flow_Bypass has a high Std% (4.1%), indicating added noise.
+p_Combustion, p_FMU, and p_Pump have large negative Mean% values (-14.3%, -17.8%, and -18.0%, respectively), indicating sustained offsets.
+
+**15-18s_throttle_down**
+Flow_Bypass has a high Std% (12.6%), indicating added noise.
+p_Combustion, p_FMU, and p_Pump have large negative Mean% values (-11.3%, -16.3%, and -17.3%, respectively), indicating sustained offsets.
+
+**18-22s_final_stable**
+No significant deviations.
+
+**22-30s_final_stable**
+Flow_Bypass has a high Std% (1.2%), indicating added noise.
+p_Combustion, p_FMU, and p_Pump have large negative Mean% values (-11.3%, -5.6%, and -9.2%, respectively), indicating sustained offsets.
+
+Note that I've only highlighted sensors with features above 2% absolute, as per the instructions.

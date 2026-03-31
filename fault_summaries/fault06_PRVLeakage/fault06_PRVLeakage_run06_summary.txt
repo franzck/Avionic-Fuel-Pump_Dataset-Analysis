@@ -1,0 +1,35 @@
+Source: ./residuals/fault06_PRVLeakage/fault06_PRVLeakage_run06_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_Bypass has a high Std% (~10%), indicating added noise.
+Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 have large negative Mean% values (~-5%), indicating sustained offsets (reading lower).
+No other significant deviations.
+
+**12-15s_high_plateau**
+Flow_Bypass has a high Std% (~10%), indicating added noise.
+Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 have large negative Mean% values (~-5%), indicating sustained offsets (reading lower).
+No other significant deviations.
+
+**15-18s_throttle_down**
+Flow_Bypass has a high Std% (~10%), indicating added noise.
+Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 have large negative Mean% values (~-5%), indicating sustained offsets (reading lower).
+p_Combustion has a steep Slope (~0.21), indicating drift within the window.
+No other significant deviations.
+
+**18-22s_final_stable**
+Flow_Bypass has a high Std% (~10%), indicating added noise.
+Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 have large negative Mean% values (~-5%), indicating sustained offsets (reading lower).
+No other significant deviations.
+
+**22-30s_final_stable**
+No significant deviations.
+
+Note that I've only focused on sensors with features clearly above noise (~2% absolute) as per the instructions.

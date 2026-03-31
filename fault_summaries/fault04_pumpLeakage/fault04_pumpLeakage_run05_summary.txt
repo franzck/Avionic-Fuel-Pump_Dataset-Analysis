@@ -1,0 +1,31 @@
+Source: ./residuals/fault04_pumpLeakage/fault04_pumpLeakage_run05_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**0-5s_initial_stable**
+No significant deviations.
+
+**5-10s_ramp_up**
+Flow_Bypass has a high Std% (12.6%), indicating added noise.
+p_FMU and p_Shut have large negative Mean% (-33.4% and -31.2%, respectively), suggesting sustained offsets (reading lower).
+
+**10-15s_high_plateau**
+No significant deviations.
+
+**15-18s_throttle_down**
+Flow_Bypass has a high Std% (12.6%), indicating added noise.
+p_FMU and p_Shut have large negative Mean% (-31.5% and -31.2%, respectively), suggesting sustained offsets (reading lower).
+RPM_Motor has many ZeroCr, indicating oscillation around the reference value.
+
+**18-22s_throttle_down**
+Flow_Bypass has a high Std% (12.6%), indicating added noise.
+p_FMU and p_Shut have large negative Mean% (-31.5% and -31.2%, respectively), suggesting sustained offsets (reading lower).
+RPM_Motor still has many ZeroCr, indicating continued oscillation.
+
+**22-30s_final_stable**
+No significant deviations.
+
+Note that I've only highlighted features with absolute values above 2%, as per the instructions.

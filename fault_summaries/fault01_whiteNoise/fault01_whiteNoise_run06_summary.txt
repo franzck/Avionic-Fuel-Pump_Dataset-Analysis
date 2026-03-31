@@ -1,0 +1,26 @@
+Source: ./residuals/fault01_whiteNoise/fault01_whiteNoise_run06_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_ramp**
+The Flow_Bypass sensor has a high Std% (1.4%), indicating added noise. The RPM_Motor sensor has a steep Slope (-0.15), suggesting it is drifting within the window.
+
+**08-12s_low_plateau**
+No significant deviations.
+
+**12-15s_throttle_up**
+The Flow_Bypass sensor has a large negative Mean% (-1.6%), indicating a sustained offset (reads lower). The RPM_Motor sensor has many ZeroCr (9), suggesting it is oscillating around the reference value.
+
+**15-18s_high_plateau**
+No significant deviations.
+
+**18-22s_throttle_down**
+The Flow_Bypass sensor has a high Std% (1.9%), indicating added noise. The p_Combustion sensor has a steep Slope (0.21), suggesting it is drifting within the window.
+
+**22-30s_final_stable**
+No significant deviations.
+
+Note that I've only focused on sensors with features clearly above noise (~2% absolute) and described what the numbers show, without speculating about fault types or root causes.

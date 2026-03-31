@@ -1,0 +1,32 @@
+Source: ./residuals/fault03_sensorDrop_Engine1/fault03_sensorDrop_Engine1_run08_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_ramp_up**
+Flow_Bypass has a high Std% (~10%), indicating added noise.
+Flow_Engine1 has a large negative Mean% (~-40%), suggesting a sustained offset (reads lower).
+No other significant deviations.
+
+**08-12s_high_plateau**
+No significant deviations.
+
+**12-15s_throttle_down**
+Flow_Engine1 has a steep Slope (~6%), indicating drift within the window.
+Flow_Bypass has a high Std% (~5%), indicating added noise.
+No other significant deviations.
+
+**15-18s_high_plateau**
+No significant deviations.
+
+**18-22s_throttle_down**
+Flow_Engine1 has a large negative Mean% (~-85%) and a steep Slope (~6%), suggesting both sustained offset (reads lower) and drift within the window.
+Flow_Bypass has a high Std% (~2%), indicating added noise.
+No other significant deviations.
+
+**22-30s_final_stable**
+No significant deviations.
+
+Note that I've only focused on sensors with features clearly above noise (~2% absolute), as per your instructions.

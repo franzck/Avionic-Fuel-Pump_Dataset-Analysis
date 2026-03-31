@@ -1,0 +1,38 @@
+Source: ./residuals/fault06_PRVLeakage/fault06_PRVLeakage_run08_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-10s_initial_stable**
+No significant deviations.
+
+**10-15s_ramp_up**
+Flow_PRV has a large Mean% (~10960%) and a steep Slope, indicating it is DRIFTING within the window. Flow_Pump has a SUSTAINED OFFSET (reads lower) with a large negative Mean%. 
+
+**15-18s_high_plateau**
+No significant deviations.
+
+**18-22s_throttle_down**
+Flow_PRV has a large Mean% (~11035%) and a steep Slope, indicating it is DRIFTING within the window. Flow_Pump has a SUSTAINED OFFSET (reads lower) with a large negative Mean%. 
+
+**22-30s_final_stable**
+No significant deviations.
+
+However, upon re-examining the data, I noticed that some sensors have features above noise (~2% absolute). Here are additional descriptions:
+
+**05-10s_initial_stable**
+p_Combustion has a SUSTAINED OFFSET (reads lower) with a Mean% of -1.8%. p_FMU and p_Pump also have SUSTAINED OFFSETS (read lower) with Mean% values around -4%.
+
+**10-15s_ramp_up**
+In addition to the previously mentioned Flow_PRV and Flow_Pump, p_Combustion has a DRIFT within the window with a steep Slope. p_FMU and p_Pump have SUSTAINED OFFSETS (read lower) with Mean% values around -4%.
+
+**15-18s_high_plateau**
+Flow_Bypass has ADDED NOISE with a high Std% of 0.9%. p_Combustion, p_FMU, and p_Pump have SUSTAINED OFFSETS (read lower) with Mean% values around -3.5%, -4%, and -3.8%, respectively.
+
+**18-22s_throttle_down**
+In addition to the previously mentioned Flow_PRV and Flow_Pump, p_Combustion has a DRIFT within the window with a steep Slope. p_FMU and p_Pump have SUSTAINED OFFSETS (read lower) with Mean% values around -2.8% and -3.1%, respectively.
+
+**22-30s_final_stable**
+p_Combustion, p_FMU, and p_Pump have SUSTAINED OFFSETS (read lower) with Mean% values around 4.8%, 0.5%, and -0.2%, respectively.

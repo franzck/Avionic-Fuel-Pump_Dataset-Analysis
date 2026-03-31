@@ -1,0 +1,30 @@
+Source: ./residuals/fault08_orifice_Bypass/fault08_orifice_Bypass_run08_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**0-5s_initial_stable**
+No significant deviations.
+
+**5-10s_ramp_up**
+Flow_Bypass has a steep Slope, indicating it is DRIFTING within the window.
+RPM_Motor has many ZeroCr, suggesting it is OSCILLATING around the reference value.
+
+**10-15s_high_plateau**
+Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 have large negative Mean%, indicating they have a SUSTAINED OFFSET (read lower).
+p_Combustion has a low Mean% but steep Slope, suggesting it is DRIFTING within the window.
+
+**15-18s_throttle_down**
+Flow_Bypass has a high Std%, indicating ADDED NOISE.
+Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 have large negative Mean%, indicating they have a SUSTAINED OFFSET (read lower).
+p_Combustion has a low Mean% but steep Slope, suggesting it is DRIFTING within the window.
+
+**18-22s_throttle_down**
+Flow_Bypass has a high Std%, indicating ADDED NOISE.
+Flow_Engine1, Flow_Engine2, Flow_Engine3, and Flow_Engine4 have large negative Mean%, indicating they have a SUSTAINED OFFSET (read lower).
+p_Combustion has a low Mean% but steep Slope, suggesting it is DRIFTING within the window.
+
+**22-30s_final_stable**
+No significant deviations.

@@ -1,0 +1,29 @@
+Source: ./residuals/fault08_orifice_Bypass/fault08_orifice_Bypass_run01_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_stable**
+No significant deviations.
+
+**08-12s_ramp_up**
+Flow_Bypass has a sustained offset (reads lower) with Mean% ≈ -10%. Flow_Pump is drifting within the window with a steep Slope. No other significant deviations.
+
+**12-15s_high_plateau**
+Flow_Bypass still has a sustained offset (reads lower) with Mean% ≈ -10%. Flow_Pump's drift has stopped, but it now has added noise with high Std%. No other significant deviations.
+
+**15-18s_throttle_down**
+Flow_Bypass's offset is decreasing, with End% closer to 0% than Start%. Flow_Pump's noise remains. RPM_Motor is oscillating around the reference value with many ZeroCr. No other significant deviations.
+
+**18-22s_high_plateau**
+No significant deviations.
+
+**22-25s_throttle_up**
+Flow_Bypass's offset has disappeared, but it now has added noise with high Std%. Flow_Pump is drifting within the window again with a steep Slope. RPM_Motor's oscillations have stopped. No other significant deviations.
+
+**25-30s_final_stable**
+No significant deviations.
+
+Note that I've only described sensors with features clearly above noise (~2% absolute) and focused on the specific characteristics mentioned in the instructions (added noise, sustained offset, drifting, oscillating).

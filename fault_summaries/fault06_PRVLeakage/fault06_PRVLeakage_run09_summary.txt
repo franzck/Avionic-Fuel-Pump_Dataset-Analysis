@@ -1,0 +1,26 @@
+Source: ./residuals/fault06_PRVLeakage/fault06_PRVLeakage_run09_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_ramp_up**
+The Flow_PRV sensor has a large Mean% (~11224%) and a steep Slope, indicating it is DRIFTING within the window. The p_Combustion sensor has a high Std% (~4%), suggesting ADDED NOISE.
+
+**08-12s_high_plateau**
+No significant deviations.
+
+**12-15s_throttle_down**
+The Flow_PRV sensor has a large Mean% (~11225%) and a steep Slope, indicating it is DRIFTING within the window. The p_Combustion sensor still has high Std% (~4%), suggesting ADDED NOISE.
+
+**15-18s_high_plateau**
+No significant deviations.
+
+**18-22s_throttle_down**
+The Flow_PRV sensor continues to have a large Mean% (~11230%) and a steep Slope, indicating it is DRIFTING within the window. The p_Combustion sensor still has high Std% (~4%), suggesting ADDED NOISE.
+
+**22-30s_final_stable**
+No significant deviations.
+
+Note that I've only focused on sensors with features clearly above noise (~2% absolute) and described what the numbers show without speculating about fault types or root causes.

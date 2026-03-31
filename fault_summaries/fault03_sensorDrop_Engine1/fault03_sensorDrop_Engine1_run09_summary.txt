@@ -1,0 +1,26 @@
+Source: ./residuals/fault03_sensorDrop_Engine1/fault03_sensorDrop_Engine1_run09_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_ramp_up**
+The Flow_Bypass sensor has a large negative Mean% (-37.3%), indicating a SUSTAINED OFFSET (reads lower). The Flow_Engine1 sensor also shows a significant deviation with a large negative Mean% (-99.9%). The p_Combustion, p_FMU, p_Pump, and p_Shut sensors have high Std% values (>2%), suggesting ADDED NOISE.
+
+**08-12s_high_plateau**
+No significant deviations.
+
+**12-15s_throttle_down**
+The Flow_Bypass sensor has a large negative Mean% (-36.1%), indicating a SUSTAINED OFFSET (reads lower). The Flow_Engine1 sensor also shows a significant deviation with a large negative Mean% (-99.9%). The p_Combustion, p_FMU, p_Pump, and p_Shut sensors have high Std% values (>2%), suggesting ADDED NOISE.
+
+**15-18s_high_plateau**
+The Flow_Bypass sensor has a small but significant deviation with a negative Mean% (-37.3%) and a steep Slope (-0.36), indicating DRIFTING within the window. The p_Combustion, p_FMU, p_Pump, and p_Shut sensors have high Std% values (>2%), suggesting ADDED NOISE.
+
+**18-22s_throttle_down**
+The Flow_Bypass sensor has a large negative Mean% (-39.2%) and a steep Slope (-9.01), indicating DRIFTING within the window. The Flow_Engine1 sensor also shows a significant deviation with a large negative Mean% (-97.7%). The p_Combustion, p_FMU, p_Pump, and p_Shut sensors have high Std% values (>2%), suggesting ADDED NOISE.
+
+**22-30s_final_stable**
+No significant deviations.
+
+Note that I've only described the features with absolute values greater than 2%, as per your instructions.

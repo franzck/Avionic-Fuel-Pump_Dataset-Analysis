@@ -1,0 +1,26 @@
+Source: ./residuals/fault07_orifice_FMU/fault07_orifice_FMU_run06_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_ramp**
+The Flow_Bypass sensor has a high Std% (6.5%), indicating added noise. The p_FMU and p_Shut sensors have large negative Mean% (-12.9% and -12.4%, respectively), suggesting sustained offsets.
+
+**08-12s_low_plateau**
+No significant deviations.
+
+**12-15s_ramp_up**
+The Flow_Bypass sensor has a high Std% (6.5%) again, indicating added noise. The p_FMU and p_Shut sensors continue to show large negative Mean% (-18.2% and -17.6%, respectively), suggesting sustained offsets.
+
+**15-18s_high_plateau**
+No significant deviations.
+
+**18-22s_throttle_down**
+The Flow_Bypass sensor has a high Std% (6.5%) once more, indicating added noise. The p_FMU and p_Shut sensors continue to show large negative Mean% (-25.4% and -24.9%, respectively), suggesting sustained offsets.
+
+**22-30s_final_stable**
+No significant deviations.
+
+Note that the Flow_Bypass sensor consistently shows high Std% across multiple time regimes, indicating persistent added noise. The p_FMU and p_Shut sensors show large negative Mean% in several regimes, suggesting sustained offsets.

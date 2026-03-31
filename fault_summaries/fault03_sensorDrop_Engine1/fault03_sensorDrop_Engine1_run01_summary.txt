@@ -1,0 +1,32 @@
+Source: ./residuals/fault03_sensorDrop_Engine1/fault03_sensorDrop_Engine1_run01_kurvendiskussion.txt
+Model: llama3.1:70b
+Note: LLM received sanitized data with no fault labels
+============================================================
+
+Here are the descriptions of the residual data for each time regime:
+
+**05-08s_initial_ramp**
+- Flow_Bypass: Added noise (high Std%).
+- Flow_Engine1: Sustained offset (large negative Mean%).
+- p_Combustion: Drifting within the window (low Mean% but steep Slope).
+
+**08-12s_low_plateau**
+- No significant deviations.
+
+**12-15s_ramp_up**
+- Flow_Bypass: Added noise (high Std%).
+- Flow_Engine1: Sustained offset (large negative Mean%) and drifting within the window (steep Slope).
+- p_Combustion: Drifting within the window (low Mean% but steep Slope).
+
+**15-18s_high_plateau**
+- No significant deviations.
+
+**18-22s_throttle_down**
+- Flow_Bypass: Added noise (high Std%) and drifting within the window (steep Slope).
+- Flow_Engine1: Sustained offset (large negative Mean%) and drifting within the window (steep Slope).
+- p_Combustion: Drifting within the window (low Mean% but steep Slope).
+
+**22-30s_final_stable**
+- No significant deviations.
+
+Note that I've only focused on sensors with features clearly above noise (~2% absolute) as per your instructions.
