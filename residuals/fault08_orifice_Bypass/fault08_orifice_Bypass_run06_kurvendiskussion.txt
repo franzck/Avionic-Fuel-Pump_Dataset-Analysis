@@ -1,0 +1,116 @@
+FAULT: fault08_orifice_Bypass — Run 06
+Reference: mean of 10 healthy runs
+All values as % of healthy sensor range
+Slope unit: %/second
+
+--- 00-05s_idle ---
+Sensor                      Start%     End%    Mean%     Std%     Min%     Max%    Slope  ZeroCr  Mono
+Flow_Bypass                   -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+Flow_Engine1                  -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+Flow_Engine2                  -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+Flow_Engine3                  -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+Flow_Engine4                  -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+Flow_PRV                      -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+Flow_Pump                     -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+RPM_Motor                      0.0      0.0      0.0      0.0      0.0      0.0     0.00       0   yes
+Signal_Throttle               -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+p_Combustion                  -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+p_FMU                         -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+p_Pump                         0.0      0.0      0.0      0.0      0.0      0.0    -0.00       0   yes
+p_Shut                        -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+
+--- 05-07s_rpm_ramp ---
+Sensor                      Start%     End%    Mean%     Std%     Min%     Max%    Slope  ZeroCr  Mono
+Flow_Bypass                   -0.0     29.8     15.1     14.3     -0.0     29.9    22.36       1    no
+Flow_Engine1                  -0.0     -0.2      1.2      1.7     -0.2      4.1    -1.37       2    no
+Flow_Engine2                  -0.0     -0.2      1.2      1.7     -0.2      4.1    -1.37       2    no
+Flow_Engine3                  -0.0     -0.2      1.2      1.7     -0.2      4.1    -1.37       2    no
+Flow_Engine4                  -0.0     -0.2      1.2      1.7     -0.2      4.1    -1.37       2    no
+Flow_PRV                      -0.0      0.6      2.6      2.7     -0.0      7.1    -1.92       1    no
+Flow_Pump                     -0.0     15.0      8.6      6.4     -0.0     15.1    10.31       1    no
+RPM_Motor                      0.0     -0.0      0.0      0.0     -0.0      0.0     0.00       5    no
+Signal_Throttle               -0.0     -0.0     -0.0      0.0     -0.0     -0.0     0.00       0   yes
+p_Combustion                  -0.0     11.3     10.4      3.5     -0.0     11.9     2.87       1    no
+p_FMU                         -0.0      1.5      2.5      1.6     -0.0      5.5    -0.59       1    no
+p_Pump                         0.0      1.1      3.7      4.0      0.0     12.0    -2.00       0    no
+p_Shut                        -0.0      1.6      2.6      1.6     -0.0      5.5    -0.57       1    no
+
+--- 07-10s_rpm_stable ---
+Sensor                      Start%     End%    Mean%     Std%     Min%     Max%    Slope  ZeroCr  Mono
+Flow_Bypass                   29.8     29.8     29.8      0.0     29.7     29.8    -0.00       0    no
+Flow_Engine1                  -0.2     -0.2     -0.2      0.0     -0.2     -0.2     0.00       0    no
+Flow_Engine2                  -0.2     -0.2     -0.2      0.0     -0.2     -0.2     0.00       0    no
+Flow_Engine3                  -0.2     -0.2     -0.2      0.0     -0.2     -0.2     0.00       0    no
+Flow_Engine4                  -0.2     -0.2     -0.2      0.0     -0.2     -0.2     0.00       0    no
+Flow_PRV                       0.6      0.6      0.6      0.0      0.6      0.6     0.00       0    no
+Flow_Pump                     15.0     15.0     15.0      0.0     15.0     15.0    -0.00       0    no
+RPM_Motor                      0.0      0.0      0.0      0.0     -0.0      0.0    -0.00       6    no
+Signal_Throttle               -0.0     -0.0     -0.0      0.0     -0.0     -0.0    -0.00       0   yes
+p_Combustion                  11.3     11.3     11.3      0.0     11.3     11.3    -0.00       0    no
+p_FMU                          1.5      1.5      1.5      0.0      1.5      1.5     0.00       0    no
+p_Pump                         1.1      1.1      1.1      0.0      1.1      1.1     0.00       0    no
+p_Shut                         1.6      1.6      1.6      0.0      1.6      1.6     0.00       0    no
+
+--- 10-15s_throttle_ramp ---
+Sensor                      Start%     End%    Mean%     Std%     Min%     Max%    Slope  ZeroCr  Mono
+Flow_Bypass                   29.7     28.9     29.6      0.4     28.3     29.9    -0.17       0    no
+Flow_Engine1                  -0.2      0.3     -0.0      0.2     -0.2      0.4     0.11       1    no
+Flow_Engine2                  -0.2      0.3     -0.0      0.2     -0.2      0.4     0.11       1    no
+Flow_Engine3                  -0.2      0.3     -0.0      0.2     -0.2      0.4     0.11       1    no
+Flow_Engine4                  -0.2      0.3     -0.0      0.2     -0.2      0.4     0.11       1    no
+Flow_PRV                       0.6      0.5      0.5      0.1      0.4      0.6    -0.04       0    no
+Flow_Pump                     15.0     15.0     15.1      0.1     14.8     15.2     0.00       0    no
+RPM_Motor                     -0.0      0.0     -0.0      0.0     -0.0      0.0     0.00      17    no
+Signal_Throttle               -0.0      0.0      0.0      0.0     -0.0      0.0     0.00       5    no
+p_Combustion                  11.3     11.4     11.3      0.1     11.0     11.5     0.01       0    no
+p_FMU                          1.5      1.0      1.2      0.3      0.7      1.5    -0.18       0    no
+p_Pump                         1.1      0.9      1.0      0.1      0.7      1.1    -0.06       0    no
+p_Shut                         1.6      1.0      1.3      0.3      0.8      1.6    -0.20       0    no
+
+--- 15-18s_high_plateau ---
+Sensor                      Start%     End%    Mean%     Std%     Min%     Max%    Slope  ZeroCr  Mono
+Flow_Bypass                   28.1     28.7     28.4      0.2     28.0     28.7     0.10       0    no
+Flow_Engine1                   0.4      0.3      0.4      0.0      0.3      0.5    -0.03       0    no
+Flow_Engine2                   0.4      0.3      0.4      0.0      0.3      0.5    -0.03       0    no
+Flow_Engine3                   0.5      0.3      0.4      0.0      0.3      0.5    -0.03       0    no
+Flow_Engine4                   0.4      0.3      0.4      0.0      0.3      0.5    -0.03       0    no
+Flow_PRV                       0.7      0.6      0.6      0.0      0.6      0.7    -0.02       0    no
+Flow_Pump                     14.7     14.9     14.8      0.1     14.7     14.9     0.03       0    no
+RPM_Motor                      0.0      0.0      0.0      0.0     -0.0      0.0     0.00       6    no
+Signal_Throttle                0.0     -0.0      0.0      0.0     -0.0      0.0     0.00       1    no
+p_Combustion                  11.5     11.4     11.5      0.0     11.4     11.5    -0.01       0    no
+p_FMU                          1.2      1.0      1.1      0.1      1.0      1.3    -0.03       0    no
+p_Pump                         1.2      1.0      1.1      0.1      1.0      1.2    -0.03       0    no
+p_Shut                         1.3      1.1      1.2      0.1      1.1      1.3    -0.03       0    no
+
+--- 18-22s_throttle_down ---
+Sensor                      Start%     End%    Mean%     Std%     Min%     Max%    Slope  ZeroCr  Mono
+Flow_Bypass                   28.9     29.8     29.7      0.3     28.9     29.9     0.15       0    no
+Flow_Engine1                   0.3     -0.1     -0.0      0.1     -0.1      0.3    -0.09       1    no
+Flow_Engine2                   0.3     -0.1     -0.0      0.1     -0.1      0.3    -0.09       1    no
+Flow_Engine3                   0.3     -0.1     -0.0      0.1     -0.1      0.3    -0.09       1    no
+Flow_Engine4                   0.2     -0.1     -0.0      0.1     -0.1      0.2    -0.09       1    no
+Flow_PRV                       0.5      0.5      0.5      0.0      0.4      0.5     0.02       0    no
+Flow_Pump                     14.9     15.1     15.1      0.1     14.9     15.2     0.00       0    no
+RPM_Motor                     -0.0     -0.0      0.0      0.0     -0.0      0.0     0.00      10    no
+Signal_Throttle                0.0      0.0     -0.0      0.0     -0.0      0.0    -0.00       4    no
+p_Combustion                  11.4     11.3     11.3      0.1     11.0     11.4     0.02       0    no
+p_FMU                          1.0      1.1      1.0      0.1      0.7      1.1     0.09       0    no
+p_Pump                         1.0      0.9      0.8      0.1      0.7      1.0     0.03       0    no
+p_Shut                         1.0      1.2      1.0      0.2      0.8      1.2     0.11       0    no
+
+--- 22-30s_final_stable ---
+Sensor                      Start%     End%    Mean%     Std%     Min%     Max%    Slope  ZeroCr  Mono
+Flow_Bypass                   29.9     29.9     29.9      0.0     29.8     29.9    -0.00       0    no
+Flow_Engine1                  -0.1     -0.1     -0.1      0.0     -0.1     -0.1     0.00       0    no
+Flow_Engine2                  -0.1     -0.1     -0.1      0.0     -0.1     -0.1     0.00       0    no
+Flow_Engine3                  -0.1     -0.1     -0.1      0.0     -0.1     -0.1     0.00       0    no
+Flow_Engine4                  -0.1     -0.1     -0.1      0.0     -0.1     -0.1     0.00       0    no
+Flow_PRV                       0.5      0.5      0.5      0.0      0.5      0.5     0.00       0    no
+Flow_Pump                     15.1     15.1     15.1      0.0     15.1     15.1    -0.00       0    no
+RPM_Motor                      0.0      0.0      0.0      0.0     -0.0      0.0    -0.00      16    no
+Signal_Throttle                0.0      0.0      0.0      0.0      0.0      0.0     0.00       0   yes
+p_Combustion                  11.3     11.3     11.3      0.0     11.3     11.3     0.00       0    no
+p_FMU                          1.1      1.1      1.1      0.0      1.1      1.1     0.00       0    no
+p_Pump                         0.9      0.9      0.9      0.0      0.9      0.9     0.00       0    no
+p_Shut                         1.2      1.2      1.2      0.0      1.2      1.2     0.00       0    no
