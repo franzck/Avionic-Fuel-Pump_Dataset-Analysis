@@ -1,0 +1,32 @@
+Fault: fault04_pumpLeakage
+Variable: Flow_PRV
+Sensors: Flow_PRV
+Colors: blue = Flow_PRV
+Type: PROCESS
+Sensitivity: Sensitive primarily to Throttle position. May remain flat during Motor-only regimes (0-10s) and respond during Throttle transitions (10-22s).
+Model: llama3.2-vision:90b
+Healthy: ./plots/healthy_Flow_PRV_m_3_s.png
+Faulty: ./plots/fault04_pumpLeakage_Flow_PRV_m_3_s.png
+Duration: 42.2s
+============================================================
+
+**0-5s:**
+The curves are IDENTICAL.
+
+**5-7s:**
+The curves are IDENTICAL.
+
+**10-15s:**
+The curves are IDENTICAL.
+
+**15-18s:**
+The curves are IDENTICAL.
+
+**18-22s:**
+The curves are IDENTICAL.
+
+**22-30s:**
+The curves are IDENTICAL.
+
+**Overall:**
+The curves are IDENTICAL throughout the entire time period.

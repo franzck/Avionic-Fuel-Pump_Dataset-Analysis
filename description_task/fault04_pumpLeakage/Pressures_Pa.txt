@@ -1,0 +1,33 @@
+Fault: fault04_pumpLeakage
+Variable: Pressures_Pa
+Sensors: p_Pump, p_FMU, p_Shut, p_Combustion
+Colors: blue = p_Pump, orange = p_FMU, green = p_Shut, red = p_Combustion
+Type: PROCESS
+Sensitivity: Sensitive to BOTH Motor RPM (affects pump pressure directly) AND Throttle (affects downstream pressures). Expect changes during Motor ramp (5-7s) and all Throttle transitions (10-22s).
+Model: llama3.2-vision:90b
+Healthy: ./plots/healthy_Pressures_Pa.png
+Faulty: ./plots/fault04_pumpLeakage_Pressures_Pa.png
+Duration: 81.6s
+============================================================
+
+**0-5s:**
+IDENTICAL
+
+**5-7s:**
+IDENTICAL
+
+**10-15s:**
+- p_FMU (orange) is ~0.5e6 Pa lower in the RIGHT plot.
+- p_Shut (green) is ~0.2e6 Pa lower in the RIGHT plot.
+
+**15-18s:**
+- p_FMU (orange) is ~0.5e6 Pa lower in the RIGHT plot.
+- p_Shut (green) is ~0.2e6 Pa lower in the RIGHT plot.
+
+**18-22s:**
+- p_FMU (orange) is ~0.5e6 Pa lower in the RIGHT plot.
+- p_Shut (green) is ~0.2e6 Pa lower in the RIGHT plot.
+
+**22-30s:**
+- p_FMU (orange) is ~0.5e6 Pa lower in the RIGHT plot.
+- p_Shut (green) is ~0.2e6 Pa lower in the RIGHT plot.

@@ -1,0 +1,38 @@
+Fault: fault04_pumpLeakage
+Variable: Flow_Pump_and_Engines
+Sensors: Flow_Pump, Flow_Engine1, Flow_Engine2, Flow_Engine3, Flow_Engine4
+Colors: blue = Flow_Pump, orange = Flow_Engine1, green = Flow_Engine2, red = Flow_Engine3, purple = Flow_Engine4
+Type: PROCESS
+Sensitivity: Sensitive to BOTH Motor RPM (pump flow) AND Throttle (engine flows). Flow_Pump responds to Motor ramp. Engine flows respond to Throttle changes.
+Model: llama3.2-vision:90b
+Healthy: ./plots/healthy_Flows_m_3_s.png
+Faulty: ./plots/fault04_pumpLeakage_Flows_m_3_s.png
+Duration: 115.6s
+============================================================
+
+**0-5s:**
+- Flow_Pump (blue) is identical.
+- Flow_Engine1 (orange), Flow_Engine2 (green), Flow_Engine3 (red), and Flow_Engine4 (purple) are all identical.
+
+**5-7s:**
+- Flow_Pump (blue) is identical.
+- Flow_Engine1 (orange), Flow_Engine2 (green), Flow_Engine3 (red), and Flow_Engine4 (purple) are all identical.
+
+**10-15s:**
+- Flow_Pump (blue) is identical.
+- Flow_Engine1 (orange), Flow_Engine2 (green), Flow_Engine3 (red), and Flow_Engine4 (purple) are all identical.
+
+**15-18s:**
+- Flow_Pump (blue) is identical.
+- Flow_Engine1 (orange), Flow_Engine2 (green), Flow_Engine3 (red), and Flow_Engine4 (purple) are all identical.
+
+**18-22s:**
+- Flow_Pump (blue) is identical.
+- Flow_Engine1 (orange), Flow_Engine2 (green), Flow_Engine3 (red), and Flow_Engine4 (purple) are all identical.
+
+**22-30s:**
+- Flow_Pump (blue) is identical.
+- Flow_Engine1 (orange), Flow_Engine2 (green), Flow_Engine3 (red), and Flow_Engine4 (purple) are all identical.
+
+**Conclusion:**
+All curves are identical between the healthy and faulty states across all time periods.

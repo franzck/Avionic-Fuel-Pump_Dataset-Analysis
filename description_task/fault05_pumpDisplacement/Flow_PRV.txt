@@ -1,0 +1,31 @@
+Fault: fault05_pumpDisplacement
+Variable: Flow_PRV
+Sensors: Flow_PRV
+Colors: blue = Flow_PRV
+Type: PROCESS
+Sensitivity: Sensitive primarily to Throttle position. May remain flat during Motor-only regimes (0-10s) and respond during Throttle transitions (10-22s).
+Model: llama3.2-vision:90b
+Healthy: ./plots/healthy_Flow_PRV_m_3_s.png
+Faulty: ./plots/fault05_pumpDisplacement_Flow_PRV_m_3_s.png
+Duration: 53.9s
+============================================================
+
+**0-5s:**
+The blue curves for Flow_PRV are IDENTICAL.
+
+**5-7s:**
+The blue curves for Flow_PRV are IDENTICAL.
+
+**10-15s:**
+The blue curves for Flow_PRV are IDENTICAL.
+
+**15-18s:**
+The blue curves for Flow_PRV are IDENTICAL.
+
+**18-22s:**
+The blue curves for Flow_PRV are IDENTICAL.
+
+**22-30s:**
+The blue curves for Flow_PRV are IDENTICAL.
+
+There are no differences between the LEFT and RIGHT plots for Flow_PRV in any of the time periods.

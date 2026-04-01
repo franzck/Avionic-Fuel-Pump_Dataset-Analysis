@@ -1,0 +1,51 @@
+Fault: fault02_sensorDrop_pFMU
+Variable: Pressures_Pa
+Sensors: p_Pump, p_FMU, p_Shut, p_Combustion
+Colors: blue = p_Pump, orange = p_FMU, green = p_Shut, red = p_Combustion
+Type: PROCESS
+Sensitivity: Sensitive to BOTH Motor RPM (affects pump pressure directly) AND Throttle (affects downstream pressures). Expect changes during Motor ramp (5-7s) and all Throttle transitions (10-22s).
+Model: llama3.2-vision:90b
+Healthy: ./plots/healthy_Pressures_Pa.png
+Faulty: ./plots/fault02_sensorDrop_pFMU_Pressures_Pa.png
+Duration: 990.9s
+============================================================
+
+**0-5s:**
+- p_Pump (blue) is identical.
+- p_FMU (orange) is identical.
+- p_Shut (green) is identical.
+- p_Combustion (red) is identical.
+
+**5-7s:**
+- p_Pump (blue) is identical.
+- p_FMU (orange) is identical.
+- p_Shut (green) is identical.
+- p_Combustion (red) is identical.
+
+**10-15s:**
+- p_Pump (blue) is identical.
+- p_FMU (orange) is identical.
+- p_Shut (green) is identical.
+- p_Combustion (red) is identical.
+
+**15-18s:**
+- p_Pump (blue) is identical.
+- p_FMU (orange) is identical.
+- p_Shut (green) is identical.
+- p_Combustion (red) is identical.
+
+**18-22s:**
+- p_Pump (blue) is identical.
+- p_FMU (orange) is identical.
+- p_Shut (green) is identical.
+- p_Combustion (red) is identical.
+
+**22-30s:**
+- p_Pump (blue) is identical.
+- p_FMU (orange) is identical.
+- p_Shut (green) is identical.
+- p_Combustion (red) is identical.
+
+**Faulty State Observations:**
+
+- No differences were observed between the healthy and faulty states across all time periods.
